@@ -6,7 +6,7 @@
 1. ogni tipo ha nome uguale all'elemento a cui si riferisce preceduto da una 'T' e lasciando la prima lettera minuscola
 2. per chiudere un tag faccio type="..." + 1 spazio + /> 
 3. ogni elemento non  specificato all'interno di un tipo e ogni tipo sono preceduti e seguiti da una riga vuota
-4. scritto i commenti dei miei dubbi alla prima occasione in cui si sono presentati -->
+4. scritto i commenti dei miei dubbi alla prima occasione in cui si sono presentati !!-->
 
     <xs:element name="utente" type="Tutente" />
 	
