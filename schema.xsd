@@ -95,5 +95,4 @@
 			<xs:element name="biografia" type="xs:string" />
 		</xs:sequence>
 	</xs:complexType>
-	<!--modifica ancora di piu-->
 </xs:schema>
