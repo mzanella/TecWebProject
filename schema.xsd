@@ -95,5 +95,5 @@
 			<xs:element name="biografia" type="xs:string" />
 		</xs:sequence>
 	</xs:complexType>
-	<!--commento-->
+	<!--commento altro commento-->
 </xs:schema>
