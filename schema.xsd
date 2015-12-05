@@ -16,7 +16,7 @@
 			<xs:element name="email" type="xs:string" />
 			<xs:element name="password" type="xs:string" />
 		</xs:sequence>
-		<xs:attribute name="idUtente" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="idUtente" type="xs:ID" use="required" />
 		<!-- dobbiamo chiedere per usare chiavi e chiavi esterne nel database in xml perchè ha detto che è molto oneroso il controllo (mi riferisco sia a idUtente che agli id dei film e id e chiavi esterne di commenti e valutazioni del pubblico) -->
 	</xs:complexType>
 	
@@ -40,7 +40,7 @@
 		<!-- qui secondo me bisogna aggiungere le valutazioni e i commenti degli utenti, oppure le alternative sono:
 			1. mettere in un elemento apposito le valutazioni e le votazioni(cosa secondo me più logica ma più difficile perchè se è tutto di seguito ad un film è più facile da caricare sulla pagina html)
 			2. mettere tutto in utente -->
-		<xs:attribute name="idFilm" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="idFilm" type="xs:ID" use="required" />
 	</xs:complexType>
 	
 	<xs:element name="filmProssimamente" type="TfilmProssimamente" />
@@ -49,7 +49,7 @@
 		<xs:sequence>
 			<xs:group ref="genFilm" />
 		</xs:sequence>
-		<xs:attribute name="idFilmProssimamente" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="idFilmProssimamente" type="xs:ID" use="required" />
 	</xs:complexType>
 
 	<!-- elementi comuni sia a film che a filmProssimamente -->
@@ -72,7 +72,7 @@
 
 	<xs:complexType name="Tdurata">
 		<xs:simpleContent>
-			<xs:extension base="positiveInteger">
+			<xs:extension base="xs:positiveInteger">
 				<xs:attribute name="unitaTempo" type="xs:string" fixed="Min." />
 			</xs:extension>
 		</xs:simpleContent>
@@ -80,8 +80,9 @@
 
 	<xs:complexType name="Tincasso">
 		<xs:simpleContent>
-			<xs:extension base="xs:decimal" minInclusive="0">
-				<xs:attribute name="unitaIncasso" fixed="M" />
+			<xs:extension base="xs:decimal">
+                <xs:minInclusive value="0" />
+				<xs:attribute name="unitaIncasso" type="xs:string" fixed="M" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -94,6 +95,7 @@
 			<xs:group ref="genPersone" />
 			<xs:element name="biografia" type="xs:string" />
 		</xs:sequence>
+        <xs:attribute name="idAttore" type="xs:ID" use="required" />
 	</xs:complexType>
 
 </xs:schema>
