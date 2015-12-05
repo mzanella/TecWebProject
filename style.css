@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white
+}
+
+body {
+    font-family: "Verdana", "Helvetica", "sans-serif";
+    font-size: 0.9em;
+    color: black;
+    border: solid 0.1em black;
+    margin: auto;
+    background-color: #2B2B2B;
+}
+
+#header{
+    border-bottom: solid 0.1em black;
+    background: #2B2B2B;
+    color: white;
+    text-align: left;
+}
+
+#logo {
+    font-size: 4em;
+}
+
+#email, #password {
+	opacity: 1; 
+	background-color: rgb(255, 255, 255); 
+	margin: 2%;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid silver;
+	color: #838383;
+	box-sizing: border-box;
+	height: 1.5em;
+	font-size: 1em;
+	text-align: left;
+}
+
+#email:hover,#password:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    box-shadow: inset 0 0.1em 0.1em rgba(0,0,0,.1);
+}
+
+#registration {
+    width: 25%;
+    display: inline;
+    float: right;
+    color: white;
+    font-size: 0.6em;
+}
+
+#breadcrumbs {
+    
+    background-color: #2B2B2B;
+    border-bottom: solid 0.1em black;
+}
+
+#nav {
+    color: white;
+    background-color: #2B2B2B;
+    height:1.9em;
+    text-align: center;
+    vertical-align: middle;
+    border-top: solid black 0.4em;
+    border-bottom: solid black 0.4em;
+    padding-bottom: 0.6em;
+}
+
+#content {
+    padding-left: 1%;
+    min-height: 30em;
+    background-color: white
+}
+
+.menulist{
+    margin-top:0.7em;
+    margin-bottom:0.7em;
+    letter-spacing: -1em;
+}
+
+li {
+    letter-spacing: normal;
+    list-style: none;
+
+    display: inline;
+    padding: 0.7em;
+    border-right: solid 0.1em black; 
+    border-left: solid 0.1em black; 
+}
+
+
+#selected{
+    background-color: white;
+    color: black;
+}
+
+li:hover{
+    background-color: gray;
+    color: black;
+    display: inline;
+}
+
+#footer {
+    text-align: center;
+}
+
+a:visited {
+    color: #bfe1bf;
+}
+
+a:active {
+    color: #E9E581;
+}
+
+a:link {
+    color: #F6F6F6;
+}
