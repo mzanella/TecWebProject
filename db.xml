@@ -1,0 +1,13 @@
+<database>
+	<film id="1">
+		<locandina> </locandina>
+		<titolo>Hunger Games: Il canto della rivolata - Parte II</titolo>
+		<dataUscita> </dataUscita>
+		<paese>Stati Uniti d'America</paese>
+		<durata>137</durata>
+		<trama>
+			<p>La resistenza si sta facendo sotto. I distretti ribelli sono ormai tutti riuniti sotto un'unica bandiera, quella dei ribelli, e sta per iniziare la marcia verso Panem, prenderla equivale a destituire il regime. </p>
+			<p>Katniss è l'arma numero uno della resistenza, non per le sue doti di stratega o per la sua abilità sul campo, ma per la sua immagine. Prima sfruttata come volto simbolo dell'intrattenimento e della distrazione di massa, ora è invece diventata il corpo della ribellione, l'unica a cui la massa dia ascolto, l'unica a cui tutti credano anche se la sua immagine è stata continuamente manipolata. Per questo motivo decide di abbandonare i ribelli (che non sono meglio del regime) e di cercare di trovare la sua vendetta e uccidere il presidente Snow da sola. Ora tutti la vogliono morta: la vuole morta Peeta, che ha subito il lavaggio del cervello; la vuole morta il presidente Snow e la vuole morta la resistenza, perché diventerebbe un martirebbe e unirebbe ancora di più le truppe.</p>
+		</trama>
+	</film>
+</database>
