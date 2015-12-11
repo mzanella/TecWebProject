@@ -2,7 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
 		<link type="text/css" rel="stylesheet" href="style.css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+        
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="title" content="Home - NomeSito" />
 		<meta name="description" content="Home page" />
 		<meta name="keyword" content="Cinema, Film, Nuove uscite, ..." />
@@ -12,8 +18,8 @@
 	</head>
 	<body>
 		<div id="header">
-            <span id="logo">NomeSito</span>
-            <form id="registration" action="post">
+            <div >
+            <form action="post">
                 <fieldset>
                     <legend>
                         <span xml:lang="en">Login</span>
@@ -28,13 +34,19 @@
                     <input type="password" id="password" name="password"/>
                 </fieldset>
             </form>
+            </div>
+            <span id="logo">NomeSito</span>
 		</div>
-        
 		<div id="breadcrumbs">
 			Ti trovi in: <span xml:lang="en">Home</span>
 		</div>
 		<div id="nav">
+            <div class="closeButton">
+                <a class="icon-close"></a>
+            </div>
+            <div id="menuButton"><a class="icon-menu"></a>             </div>
 			<ul class="menulist">
+                <li id="saltamenu"><a href="#content">Salta il menù</a></li>
                 <li id="selected"><span xml:lang="en">Home</span></li>
 				<li><a href="Notizie.html">Notizie</a></li>
                 <li><a href="OraInSala.html">Ora in sala</a></li>
@@ -43,8 +55,11 @@
 				<li><a href="Attori.html">Attori</a></li>
             </ul>
 		</div>
+        <script type="text/javascript" src="js/button.js">            
+        </script>
 		<div id="content">
-			<h2>Nuove uscite</h2>
+			<h2>Nuove uscite ttttttttttttttt
+                ttttt t ttttt ttttttt ttttttttttt t t tttttt tt tttttt tttt tttt ttttt tt tttttt tttttt tttttttt t  t  t tttt ttttt</h2>
 		</div>
 	</body>
 </html>

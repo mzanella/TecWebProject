@@ -13,18 +13,19 @@ body {
     color: black;
     border: solid 0.1em black;
     margin: auto;
-    background-color: #2B2B2B;
+    background-color: white;
 }
 
 #header{
     border-bottom: solid 0.1em black;
-    background: #2B2B2B;
-    color: white;
+    background: white;
+    color: black;
     text-align: left;
 }
 
 #logo {
     font-size: 4em;
+    color: black;
 }
 
 #email, #password {
@@ -36,7 +37,7 @@ body {
 	border-top: 1px solid silver;
 	color: #838383;
 	box-sizing: border-box;
-	height: 1.5em;
+	height: 1.2em;
 	font-size: 1em;
 	text-align: left;
 }
@@ -48,16 +49,24 @@ body {
 }
 
 #registration {
-    width: 25%;
-    display: inline;
-    float: right;
+    padding: 0;
+    margin: 0;  
+    width: 100%;
+    display: block;
     color: white;
     font-size: 0.6em;
+    height: 1.8em;
+}
+
+#login {
+    background-color: black;
+    height: auto;
+    position: absolute;
+    top:0; right:0;
 }
 
 #breadcrumbs {
-    
-    background-color: #2B2B2B;
+    background-color: white;
     border-bottom: solid 0.1em black;
 }
 
@@ -65,11 +74,12 @@ body {
     color: white;
     background-color: #2B2B2B;
     height:1.9em;
+    width:100%;
     text-align: center;
     vertical-align: middle;
-    border-top: solid black 0.4em;
     border-bottom: solid black 0.4em;
     padding-bottom: 0.6em;
+    overflow: visible;
 }
 
 #content {
@@ -82,28 +92,34 @@ body {
     margin-top:0.7em;
     margin-bottom:0.7em;
     letter-spacing: -1em;
+    /*per togliere lo spazio tra una voce del menù e la successiva*/
+    width:100%;
+    float:left;
+    overflow: visible;
+    background-color: #2B2B2B;
 }
 
 li {
     letter-spacing: normal;
-    list-style: none;
-
+    padding-left:3%;
+    padding-right:3%;
+    padding-bottom: 0.7em;
+    padding-top:0.7em;
     display: inline;
-    padding: 0.7em;
     border-right: solid 0.1em black; 
     border-left: solid 0.1em black; 
 }
 
 
 #selected{
-    background-color: white;
+    background-color: #eff600;
     color: black;
+    display: inline;
 }
 
 li:hover{
-    background-color: gray;
+    background-color: #0076a3;
     color: black;
-    display: inline;
 }
 
 #footer {
@@ -120,4 +136,80 @@ a:active {
 
 a:link {
     color: #F6F6F6;
+}
+
+@media all and (max-width:600px) {
+    
+    #nav {
+        color: white;
+        background-color: #2B2B2B;
+        height:1.9em;
+        width:100%;
+        text-align: left;
+        vertical-align: middle;
+        border-bottom: solid black 0.4em;
+        padding-bottom: 0.6em;
+    }
+    
+    .closeButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    
+    #menuButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    
+    li {
+        text-align: center;
+        width:100%;
+        padding-bottom: 0.1em;
+        padding-top:0.1em;
+        display: block;
+        border: solid 0.1em black;  
+    }
+    
+    lu, #selected {
+        display: block;
+    }
+
+}
+
+@media handheld {
+    
+    #nav {
+        color: white;
+        background-color: #2B2B2B;
+        height:1.9em;
+        width:100%;
+        text-align: left;
+        vertical-align: middle;
+        border-bottom: solid black 0.4em;
+        padding-bottom: 0.6em;
+    }
+    
+    .closeButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    
+    #menuButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    
+    li {
+        text-align: center;
+        width:100%;
+        padding-bottom: 0.1em;
+        padding-top:0.1em;
+        display: block;
+        border: solid 0.1em black;  
+    }   
+    
+    lu, #selected {
+        display: block;
+    }
+
 }
