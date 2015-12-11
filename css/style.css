@@ -138,6 +138,12 @@ a:link {
     color: #F6F6F6;
 }
 
+#saltamenu {
+    font-size: 0;
+    height: 0;
+    width: 0;
+}
+
 @media all and (max-width:600px) {
     
     #nav {
