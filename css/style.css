@@ -41,7 +41,25 @@ div#header{
 
 /*-----------------FINE HEADER-----------------------*/
 
+/*--------------LOGIN BAR + FORM REGISTRAZIONE--------*/
+div#loginBar{
+    width: 100%;
+    min-height: 2em;
+    background-color: black;
+    color: white;
+}
 
+form#registrationProva{
+    text-align: right;
+    padding-right: 1em;
+}
+
+fieldset#loginFieldSet{
+    border: none;
+}
+
+
+/*--------------FINE LOGIN BAR / FORM REGISTRAZIONE---*/
 
 /*---------------FORM REGISTRAZIONE-----------------*/
 form#registration{
@@ -71,7 +89,6 @@ input#invio{
 	min-width: 2em;
 }
 /*--------------FINE FORM REGISTRAZIONE---------------*/
-
 
 /*--------------PROPRIETÀ NAVIGATION------------------*/
 
