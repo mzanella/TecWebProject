@@ -109,10 +109,10 @@ body {
 	background-color: black;
 }
 
-li:hover{
+/*li:hover{
     display: inline;
 	font-size: 1.05em;
-}
+}*/
 
 #selected{
 	font-size: 1em;
@@ -131,13 +131,16 @@ a:visited {
     color: #FFF000;
 }
 
+#nav .menulist a {
+    display: inline-block;
+}
+
 #footer{
 	border-top: 1px solid white;
 	background-color: #202020;
 	color: white;
 	min-height: 3em;
 }
-
 
 #saltamenu {
     font-size: 0;
@@ -180,14 +183,18 @@ a:visited {
     lu, #selected {
         display: block;
     }
-
+    
+    #nav .menulist a {
+        display: block;
+    }
+    
 }
 
 @media handheld {
     
     #nav {
         color: white;
-        background-color: black;
+        background-color: black ;
         height:1.9em;
         width:100%;
         text-align: left;
@@ -213,10 +220,14 @@ a:visited {
         padding-top:0.1em;
         display: block;
         border: solid 0.1em black;  
-    }   
+    }
     
     lu, #selected {
         display: block;
     }
-
+    
+    #nav .menulist a {
+        display: block;
+    }
+    
 }
