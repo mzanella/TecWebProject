@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "Courier new","Verdana", "Helvetica", "sans-serif";
+    font-family: "Verdana", "Helvetica", "sans-serif";
     font-size: 0.9em;
     margin: auto;
 	color: black;
@@ -114,7 +114,7 @@ ul.menulist li{
 	list-style: none;
 	overflow: visible;
     height: 3em;
-    width: 10em;
+    width: 18em;
     text-align: center;
     line-height: 3em;
     font-weight: bold;
