@@ -37,11 +37,12 @@ div#header{
 	background-color: #202020;
 	color: white;
 	border-bottom: 1px solid white;
+    text-align: center;
 }
 
 /*-----------------FINE HEADER-----------------------*/
 
-/*--------------LOGIN BAR + FORM REGISTRAZIONE--------*/
+/*--------------LOGIN BAR--------*/
 div#loginBar{
     width: 100%;
     min-height: 2em;
@@ -50,27 +51,13 @@ div#loginBar{
     text-align: right;
 }
 
-form#registrationProva{
-    text-align: right;
-    padding-right: 1em;
-}
-
-fieldset#loginFieldSet{
-    border: none;
-}
-
-input.loginButton{
-    min-height: 2em;
-}
-
 a.loginLink{
     padding-right: 1em;
     vertical-align: center;
     line-height: 2em;
 }
 
-
-/*--------------FINE LOGIN BAR / FORM REGISTRAZIONE---*/
+/*--------------FINE LOGIN BAR---*/
 
 /*---------------FORM REGISTRAZIONE-----------------*/
 form#registration{
@@ -118,6 +105,8 @@ ul.menulist{
     float: left;
     overflow: visible;
     background-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 ul.menulist li{
@@ -127,6 +116,8 @@ ul.menulist li{
     text-align: center;
     line-height: 3em;
     font-weight: bold;
+    min-width: 8em;
+    width: 16%;
 }
 
 ul.menulist li:hover{
@@ -135,15 +126,16 @@ ul.menulist li:hover{
 
 ul.menulist a {
     display: inline-block;
+    width: 100%;
     height: 3em;
-    width: 18em;
 }
 
 li#selected{
+    display: inline-block;
     color:white;
     background-color: #007ee5;
     height: 3em;
-    width: 18em;
+    width: 16%;
 }
 
 
