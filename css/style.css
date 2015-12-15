@@ -113,8 +113,6 @@ ul.menulist li{
 	float: left;
 	list-style: none;
 	overflow: visible;
-    height: 3em;
-    width: 18em;
     text-align: center;
     line-height: 3em;
     font-weight: bold;
@@ -126,11 +124,15 @@ ul.menulist li:hover{
 
 ul.menulist a {
     display: inline-block;
+    height: 3em;
+    width: 18em;
 }
 
 li#selected{
     color:white;
     background-color: #007ee5;
+    height: 3em;
+    width: 18em;
 }
 
 
