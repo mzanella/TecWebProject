@@ -47,6 +47,7 @@ div#loginBar{
     min-height: 2em;
     background-color: black;
     color: white;
+    text-align: right;
 }
 
 form#registrationProva{
@@ -56,6 +57,16 @@ form#registrationProva{
 
 fieldset#loginFieldSet{
     border: none;
+}
+
+input.loginButton{
+    min-height: 2em;
+}
+
+a.loginLink{
+    padding-right: 1em;
+    vertical-align: center;
+    line-height: 2em;
 }
 
 
