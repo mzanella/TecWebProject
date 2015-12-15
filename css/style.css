@@ -34,9 +34,10 @@ a:visited {
 
 div#header{
 	min-height: 7em;
-	background-color: #202020;
+	/*background-color: #202020;*/
+    background-color: #404040;
 	color: white;
-	border-bottom: 1px solid white;
+	/*border-bottom: 1px solid white;*/
     text-align: center;
 }
 
@@ -58,35 +59,6 @@ a.loginLink{
 }
 
 /*--------------FINE LOGIN BAR---*/
-
-/*---------------FORM REGISTRAZIONE-----------------*/
-form#registration{
-	text-align: right;
-	padding-right: 1em;
-}
-
-form#registration fieldset{
-	display: inline;
-	min-height: 3em;
-	padding-top:0.2em;
-	padding-right: 0.7em;
-	width: 30em;
-}
-
-form#registration fieldset label{
-	max-width: 3em;
-}
-
-input#email,#password{
-	max-width:8em;
-}
-
-input#invio{
-	padding: 0.1em;
-	padding-bottom: 0.2em;
-	min-width: 2em;
-}
-/*--------------FINE FORM REGISTRAZIONE---------------*/
 
 /*--------------PROPRIETÀ NAVIGATION------------------*/
 
@@ -118,6 +90,7 @@ ul.menulist li{
     font-weight: bold;
     min-width: 8em;
     width: 16%;
+    /*border: 0.1em solid gray;*/
 }
 
 ul.menulist li:hover{
@@ -155,11 +128,11 @@ li#saltamenu {
 	min-height: 1.5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.2em;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 	background-color: #202020;
 	color: white;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	/*border-top: 1px solid white;*/
+	/*border-bottom: 1px solid white;*/
     width:98%;
 }
 
@@ -180,7 +153,7 @@ li#saltamenu {
 
 /*--------------FOOTER------------------------*/
 #footer{
-	border-top: 1px solid white;
+	/*border-top: 1px solid white;*/
 	background-color: #202020;
 	color: white;
 	min-height: 3em;
