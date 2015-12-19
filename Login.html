@@ -11,7 +11,7 @@
 		<meta name="keyword" content="Cinema, Film, Nuove uscite, ..." />
 		<meta name="language" content="italian it" />
 		<meta name="author" content="Oscar Elia Conti, Simone Poloniato, Federico Tavella, Marco Zanella" />
-		<title>Home - NomeSito</title>
+		<title>Login - NomeSito</title>
 	</head>
 	<body>
 		<div id="loginBar">
@@ -37,11 +37,20 @@
             </ul>
 		</div>
         <div id="breadcrumbs">
-			Ti trovi in: <span xml:lang="en">Home</span>
+			Ti trovi in: <span xml:lang="en">Login</span>
 		</div>
         <script type="text/javascript" src="js/button.js"></script>
 		<div id="content">
-			<h2>Pagina di login</h2>
+			<form method="post" action="">
+				<legend>Effettua il login per accedere al sito<legend>
+           		<fieldset id="loginFieldSet">
+			   		<label class ="loginForm" for="email">E-mail:</label>
+                	<input class ="loginForm" type="text" id="email" name="email" />
+                	<label class ="loginForm" for="password">Password:</label>
+                	<input class ="loginForm" type="password" id="password" name="password" />
+                	<input class ="loginForm" type="submit" value="Accedi" id="invio" />
+				</fieldset>
+			</form>
 		</div>
         <div id="footer">
 			<p>Remember me to put something here</p>
