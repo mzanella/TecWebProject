@@ -153,10 +153,17 @@ div#content{
 /*-----------FINE CONTENUTO-------------------*/
 
 /*-----------LOGIN FORM-----------------------*/
-.loginForm{
+input,label.loginForm{
         display: block;
+        margin: 0.5em;
 }
 
+fieldset#loginFieldSet{
+    display: block;
+    float: center;
+    width: 15%;
+    margin-left: 40%;
+}
 
 /*-----------FINE LOGIN FORM-----------------------*/
 
