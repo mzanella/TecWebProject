@@ -20,7 +20,7 @@ Progetto di Tecnologie Web
 	-elimina commento <br />
 	-votazione film <br />
 <br />
-<b>amministratore</b>
+<b>amministratore</b><br />
 	-login <br />
 	-logout <br />
 	-inserimento news <br />
