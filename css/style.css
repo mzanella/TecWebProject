@@ -12,8 +12,8 @@ body {
     font-family: "Verdana", "Helvetica", "sans-serif";
     font-size: 0.9em;
     margin: auto;
-	color: black;
-	background-color: white;
+    color: black;
+    background-color: white;
 }
 
 a {
@@ -29,19 +29,6 @@ a:visited {
 }
 
 /*------------------FINE PROPRIETÀ GENERALI------------*/
-
-/*------------------PROPRIETÀ HEADER-------------------*/
-
-div#header{
-	min-height: 7em;
-	/*background-color: #202020;*/
-    background-color: #404040;
-	color: white;
-	/*border-bottom: 1px solid white;*/
-    text-align: center;
-}
-
-/*-----------------FINE HEADER-----------------------*/
 
 /*--------------LOGIN BAR--------*/
 div#loginBar{
@@ -60,6 +47,22 @@ a.loginLink{
 
 /*--------------FINE LOGIN BAR---*/
 
+/*------------------PROPRIETÀ HEADER-------------------*/
+
+div#header{
+	min-height: 7em;
+	background-color: #202020;
+	color: white;
+	/*border-bottom: 1px solid white;*/
+    text-align: center;
+}
+
+div#header h1{
+    line-height: 3em; /*-----!!!!!! Provvisorio !!!!!!------*/
+}
+
+/*-----------------FINE HEADER-----------------------*/
+
 /*--------------PROPRIETÀ NAVIGATION------------------*/
 
 div#nav {
@@ -77,8 +80,8 @@ ul.menulist{
     float: left;
     overflow: visible;
     background-color: black;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 ul.menulist li{
@@ -94,7 +97,7 @@ ul.menulist li{
 }
 
 ul.menulist li:hover{
-    background-color: white;
+    background-color: #007ee5;
 }
 
 ul.menulist a {
