@@ -41,16 +41,20 @@
 		</div>
         <script type="text/javascript" src="js/button.js"></script>
 		<div id="content">
-			<form method="post" action="">
-           		<fieldset id="loginFieldSet">
-					<legend>Effettua il login per accedere al sito:<legend>
-			   		<label class ="loginForm" for="email">E-mail:</label>
-                	<input class ="loginForm" type="text" id="email" name="email" />
-                	<label class ="loginForm" for="password">Password:</label>
-                	<input class ="loginForm" type="password" id="password" name="password" />
-                	<input class ="loginForm" type="submit" value="Accedi" id="invio" />
-				</fieldset>
-			</form>
+			<div class="loginContainer">
+				<img src="images/user.png" alt="" id="loginImage" />
+				<h1>Member Login</h1>
+				<form method="post" action="" id="loginForm">
+	           		<fieldset id="loginFieldSet">
+				   		<label class ="loginForm" for="email">E-mail:</label>
+	                	<input class ="loginForm" type="text" id="email" name="email" />
+	                	<label class ="loginForm" for="password">Password:</label>
+	                	<input class ="loginForm" type="password" id="password" name="password" />
+	                	<input class ="loginForm" type="submit" value="Accedi" id="invio" />
+						<p><a href="#">Forgot Password ?</a></p>
+					</fieldset>
+				</form>
+			</div>
 		</div>
         <div id="footer">
 			<p>Remember me to put something here</p>
