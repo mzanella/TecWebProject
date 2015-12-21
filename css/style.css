@@ -265,7 +265,21 @@ div#footer{
 
 }
 
+form#registrazione label, input {
+	display: block;
+}
 
+form#registrazione .data{
+	display: inline;
+}
+
+form#registrazione fieldset#categorie label {
+	display: inline;
+}
+
+form#registrazione fieldset#categorie input {
+	display: inline;
+}
 /*------------Questo cos'è?---------------------------
 #nome{
     float:left;
