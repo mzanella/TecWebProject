@@ -298,13 +298,15 @@ form#registrazione .data{
 	display: inline;
 }
 
-form#registrazione fieldset#categorie label {
-	display: inline;
+form#registrazione fieldset#categorie input {
+	display: block;
+	float: left;
 }
 
-form#registrazione fieldset#categorie input {
-	display: inline;
+form#registrazione fieldset#categorie label {
+	
 }
+
 /*------------Questo cos'è?---------------------------
 #nome{
     float:left;
