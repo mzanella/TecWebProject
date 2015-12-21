@@ -153,16 +153,45 @@ div#content{
 /*-----------FINE CONTENUTO-------------------*/
 
 /*-----------LOGIN FORM-----------------------*/
-input,label.loginForm{
-        display: block;
-        margin: 0.5em;
+div.loginContainer{
+    background:gray;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.loginContainer h1{
+    font-size:25px;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400em;
+	padding-top: 2%;
+    text-align: center;
 }
 
 fieldset#loginFieldSet{
+    border: none;
+}
+
+img#loginImage{
     display: block;
-    float: center;
-    width: 15%;
-    margin-left: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form#loginForm{
+    padding: 1em;
+    margin: 1em;
+}
+
+form#loginForm p{
+
+}
+
+
+input,label.loginForm{
+    margin: 0.5em;
+    display: block;
 }
 
 /*-----------FINE LOGIN FORM-----------------------*/
