@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.dominio.com" targetNamespace="http://www.dominio.com" elementFormDefault="qualified">
+
+<!-- per l'attributo xml:lang -->
+<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+
 <!-- ricordarsi di cambiare il targetNamespace con qualcosa di più sensato -->
 
 <!-- in questo file è scritto secondo il modo 'tende alla veneziana' cercando di rispettare la seguente sintassi
 1. ogni tipo ha nome uguale all'elemento a cui si riferisce preceduto da una 'T' e lasciando la prima lettera minuscola
 2. per chiudere un tag faccio type="..." + 1 spazio + /> 
 3. ogni elemento non  specificato all'interno di un tipo e ogni tipo sono preceduti e seguiti da una riga vuota
-4. scritto i commenti dei miei dubbi alla prima occasione in cui si sono presentati !!-->
+4. scritto i commenti dei miei dubbi alla prima occasione in cui si sono presentati -->
+	<xs:element name="database" type="Tdatabase" />
 
-    <xs:element name="utente" type="Tutente" />
+	<xs:complexType name="Tdatabase">
+		<xs:sequence>
+			<xs:sequence minOccur="0" maxOccurs="unbounded">
+				<xs:element name="utente" type="Tutente" />
+			</xs:sequence>
+			<xs:sequence minOccur="0" maxOccurs="unbounded">
+				<xs:element name="film" type="Tfilm" />
+			</xs:sequence>
+			<xs:sequence minOccur="0" maxOccurs="unbounded">
+				<xs:element name="filmProssimamente" type="TfilmProssimamente" />
+			</xs:sequence>
+			<xs:sequence>
+				<xs:element name="attore" type="Tattore" />
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
 	
 	<xs:complexType name="Tutente">
 		<xs:sequence>
 			<xs:group ref="genPersone" />
 			<xs:element name="email" type="xs:string" />
 			<xs:element name="password" type="xs:string" />
+			<!--<xs:element name="commento" type="Ttesto" minOccurs="0" maxOccurs="unbounded">-->
 		</xs:sequence>
-		<xs:attribute name="idUtente" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="idUtente" type="xs:ID" use="required" />
 		<!-- dobbiamo chiedere per usare chiavi e chiavi esterne nel database in xml perchè ha detto che è molto oneroso il controllo (mi riferisco sia a idUtente che agli id dei film e id e chiavi esterne di commenti e valutazioni del pubblico) -->
 	</xs:complexType>
 	
@@ -28,28 +49,54 @@
 		</xs:sequence>
 	</xs:group>
 
-	<xs:element name="film" type="Tfilm" />
-
 	<xs:complexType name="Tfilm">
 		<xs:sequence>
 			<xs:group ref="genFilm" />
 			<xs:element name="incasso" type="Tincasso" />
 			<xs:element name="valutazioneSito" type="xs:decimal" />
-			<xs:element name="recensione" type="xs:string" />
+			<xs:element name="recensione" type="Ttesto" />
 		</xs:sequence>
 		<!-- qui secondo me bisogna aggiungere le valutazioni e i commenti degli utenti, oppure le alternative sono:
 			1. mettere in un elemento apposito le valutazioni e le votazioni(cosa secondo me più logica ma più difficile perchè se è tutto di seguito ad un film è più facile da caricare sulla pagina html)
 			2. mettere tutto in utente -->
-		<xs:attribute name="idFilm" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="idFilm" type="xs:ID" use="required" />
 	</xs:complexType>
 	
-	<xs:element name="filmProssimamente" type="TfilmProssimamente" />
+	<xs:complexType name="Ttesto">
+		<xs:sequence minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="p" type="Tp" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Tp" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="span" type="Tspan" />
+			<xs:element name="abbr" type="Tabbr" />
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="Tspan">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute ref="xml:lang" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="Tabbr">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="title" type="xs:string" />
+				<xs:attribute ref="xml:lang" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
 
 	<xs:complexType name="TfilmProssimamente">
 		<xs:sequence>
 			<xs:group ref="genFilm" />
 		</xs:sequence>
-		<xs:attribute name="idFilmProssimamente" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="idFilmProssimamente" type="xs:ID" use="required" />
 	</xs:complexType>
 
 	<!-- elementi comuni sia a film che a filmProssimamente -->
@@ -60,7 +107,7 @@
 			<xs:element name="dataUscita" type="xs:string" />
 			<xs:element name="paese" type="xs:string" />
 			<xs:element name="durata" type="Tdurata" />
-			<xs:element name="trama" type="xs:string" />
+			<xs:element name="trama" type="Ttesto" />
 		</xs:sequence>
 	</xs:group>
 
@@ -72,7 +119,7 @@
 
 	<xs:complexType name="Tdurata">
 		<xs:simpleContent>
-			<xs:extension base="positiveInteger">
+			<xs:extension base="xs:positiveInteger">
 				<xs:attribute name="unitaTempo" type="xs:string" fixed="Min." />
 			</xs:extension>
 		</xs:simpleContent>
@@ -80,13 +127,12 @@
 
 	<xs:complexType name="Tincasso">
 		<xs:simpleContent>
-			<xs:extension base="xs:decimal" minInclusive="0">
-				<xs:attribute name="unitaIncasso" fixed="M" />
+			<xs:extension base="xs:decimal">
+                <xs:minInclusive value="0" />
+				<xs:attribute name="unitaIncasso" type="xs:string" fixed="M" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
-
-	<xs:element name="attore" type="Tattore" />
 
 	<xs:complexType name="Tattore">
 		<xs:sequence>
@@ -94,6 +140,7 @@
 			<xs:group ref="genPersone" />
 			<xs:element name="biografia" type="xs:string" />
 		</xs:sequence>
+        <xs:attribute name="idAttore" type="xs:ID" use="required" />
 	</xs:complexType>
-	<!--modifica-->
+
 </xs:schema>
