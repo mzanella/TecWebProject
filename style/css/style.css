@@ -71,7 +71,6 @@ div#nav {
 	color: white;
     background-color: black;
     overflow: visible;
-    align-content: center;
 }
 
 ul.menulist{
@@ -290,29 +289,19 @@ div#footer{
 
 }
 
-form#registrazione label, input {
+/*------------ FORM GENERI DEI FILM ------------*/
+div.input_type{
 	display: block;
 }
 
-form#registrazione .data{
+.input_type input{
 	display: inline;
 }
 
-form#registrazione fieldset#categorie input {
-	display: block;
-	float: left;
+.input_type label{
+	padding-left: 1em;
+	width: 12em;
+	display: inline-block;
 }
 
-form#registrazione fieldset#categorie label {
-	
-}
-
-/*------------Questo cos'è?---------------------------
-#nome{
-    float:left;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    font-weight: bold;
-    font-size: 2em;
-}
-------------Fine------------------------------------*/
+/*------------ FINE FORM GENERI DEI FILM ------------*/
