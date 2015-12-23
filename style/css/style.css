@@ -290,29 +290,17 @@ div#footer{
 
 }
 
-form#registrazione label, input {
-	display: block;
-}
-
-form#registrazione .data{
-	display: inline;
-}
-
-form#registrazione fieldset#categorie input {
-	display: block;
-	float: left;
+form#registrazione fieldset#categorie{
+	padding: 1em;
 }
 
 form#registrazione fieldset#categorie label {
-	
+	display: block;
+	margin-bottom: 1em;
+	margin-top: 0em;
 }
 
-/*------------Questo cos'è?---------------------------
-#nome{
-    float:left;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    font-weight: bold;
-    font-size: 2em;
+form#registrazione fieldset#categorie input {
+	float: left;
+	margin-top: 0.2em;
 }
-------------Fine------------------------------------*/
