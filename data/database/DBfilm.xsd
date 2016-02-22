@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" targetNamespace="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" elementFormDefault="qualified">
+<xs:element name="database" type="Tdatabase" />
+
+<xs:complexType name="Tdatabase">
+	<xs:sequence>
+		<xs:element name="films" type="Tfilms"  minOccurs="1" maxOccurs="1"/>
+		<xs:element name="filmsProssimamente" type="TfilmsProssimamente"  minOccurs="1" maxOccurs="1"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tfilms">
+	<xs:sequence>
+		<xs:element name="film" type="Tfilm" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TfilmsProssimamente">
+	<xs:sequence>
+		<xs:element name="filmProssimamente" type="TfilmProssimamente" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+
+
+	<xs:complexType name="Tfilm">
+		<xs:sequence>
+			<xs:group ref="filmDatiComuni"/>
+			<xs:element name="incasso" type="Tincasso" />
+			<xs:element name="valutazioneSito" type="xs:positiveInteger" />
+			<xs:element name="recensione" type="xs:string" />
+			<xs:element name="inSala" type="Tsala" />
+		</xs:sequence>
+		<xs:attribute name="id" use="required" type="xs:decimal" />
+	</xs:complexType>
+
+	<xs:complexType name="TfilmProssimamente">
+		<xs:sequence>
+			<xs:group ref="filmDatiComuni"/>
+		</xs:sequence>
+		<xs:attribute name="id" use="required" type="xs:decimal" />
+	</xs:complexType>
+
+	<xs:group name="filmDatiComuni">
+		<xs:sequence>
+				<xs:element name="locandina" type="Tlocandina" />
+				<xs:element name="titolo" type="xs:string" />
+				<xs:element name="dataUscita" type="xs:string" />
+				<xs:element name="paese" type="xs:string" />
+				<xs:element name="durata" type="xs:positiveInteger" />
+				<xs:element name="trama" type="xs:string" />
+				<xs:element name="genere" type="Tgenere" />
+				<xs:element name="annoProduzione" type="xs:string" />
+				<xs:element name="attori" type="xs:string" />
+				<xs:element name="regia" type="xs:string" />
+		</xs:sequence>
+	</xs:group>
+
+	<xs:complexType name="Tincasso">
+	<xs:simpleContent>
+		<xs:extension base="xs:positiveInteger">
+			<xs:attribute name="valuta" use="required" fixed="&#8364;" type="xs:string"/>
+			<xs:attribute name="unitaMisura" use="required" fixed="M." type="xs:string"/>
+		</xs:extension>
+	</xs:simpleContent>
+	</xs:complexType>
+
+<xs:simpleType name="Tsala">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="si" />
+			<xs:enumeration value="no" />
+		</xs:restriction>
+</xs:simpleType>
+
+
+<xs:complexType name="Tlocandina">
+		<xs:attribute name="alt" type="xs:string" use="required"/>
+		<xs:attribute name="src" type="xs:string" use="optional"/>
+</xs:complexType>
+
+<xs:simpleType name="Tgenere">
+<xs:restriction base="xs:string">
+	<xs:enumeration value="animazione" />
+	<xs:enumeration value="avventura" />
+	<xs:enumeration value="azione" />
+	<xs:enumeration value="comico" />
+	<xs:enumeration value="commedia" />
+	<xs:enumeration value="documentario" />
+	<xs:enumeration value="dramma" />
+	<xs:enumeration value="erotico" />
+	<xs:enumeration value="fantascienza" />
+	<xs:enumeration value="giallo" />
+	<xs:enumeration value="guerra" />
+	<xs:enumeration value="horror" />
+	<xs:enumeration value="musical" />
+	<xs:enumeration value="noir" />
+	<xs:enumeration value="sentimentale" />
+	<xs:enumeration value="thriller" />
+	<xs:enumeration value="western" />
+</xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

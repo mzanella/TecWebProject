@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+<head>
+	<link href="../style/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/styleFont.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="title" content="Home - NomeSito" />
+	<meta name="description" content="Home page" />
+	<meta name="keyword" content="Cinema, Film, Nuove uscite, ..." />
+	<meta name="language" content="italian it" />
+	<meta name="author" content="Oscar Elia Conti, Federico Tavella, Marco Zanella" />
+	<title>Inserisci film in uscita - NomeSito</title>
+</head>
+
+<body>
+	<div id="header">
+		<img id="imgHeader" src="../style/images/PRIMEX-logo.png" alt="logo" />
+	</div>
+	<div id="nav">
+		<div class="closeButton">
+			<a class="icon-close"></a>
+		</div>
+		<div id="menuButton">
+			<a class="icon-menu"></a>
+		</div>
+		<ul class="menulist">
+			<li id="saltamenu"><a href="#content">Salta il menù</a></li>
+			<li id="selected"><span xml:lang="en">HOME</span></li>
+			<li><a href="TuttiIFilm.html">TUTTI I FILM</a></li>
+			<li><a href="OraInSala.html">ORA IN SALA</a></li>
+			<li><a href="Prossimamente.html">PROSSIMAMENTE</a></li>
+		</ul>
+	</div>
+	<div id="breadcrumbs">
+		Ti trovi in: <span xml:lang="en">Home</span>
+	</div>
+	<script type="text/javascript" src="javascript/button.js"></script>
+	<div id="loginBar">
+		<a href="Login.html" class="loginLink">Login</a>
+		<a href="Registrati.html" class="loginLink">Registrati</a>
+	</div>
+	<div id="content">
+		<h1>Insersci nuovo film in uscita</h1>
+		<form id="frmFilmUscita" action="azione_da_inserire" method="post">
+			<fieldset>
+				<label for="titolo">Titolo:</label><input type="text" name="titolo" id="titolo" />
+				<label for="locandina">Inserisci la locandina del film:</label>
+				<input type="file" name="locandina" id="locandina" />
+				<label for="paeseDiProduzione">Paese di produzione:</label>
+				<input type="text" name="paeseDiProduzione" id="paeseDiProduzione" />
+				<label for="durata">Durata:</label>
+				<input type="text" name="durata" id="durata" />
+				<label for="anno">Anno:</label>
+				<input type="text" name="anno" id="anno" />
+				<label for="regia">Regia:</label>
+				<input type="text" name="regia" id="regia" />
+				<label for="interpreti">Interpreti:</label>
+				<input type="text" name="interpreti" id="interpreti" />
+				<label for="genere">Genere:</label>
+				<input type="text" name="genere" id="genere" />
+				<label for="trama">Trama:</label>
+				<input type="text" name="trama" id="trama">
+				<p id="labelSubstitute">
+				Data di uscita nelle sale:
+				</p>
+				<label for="giornoUscita" id="labelUscita">Giorno:</label>
+				<select class="" name="giornoUscita"></select>
+				<label for="giornoUscita" id="labelUscita">Mese:</label>
+				<select class="" name="meseUscita"></select>
+				<label for="giornoUscita" id="labelUscita">Anno:</label>
+				<select class="" name="annoUscita"></select>
+			</fieldset>
+		</form>
+	</div>
+	<div id="footer">
+		<p>Remember me to put something here</p>
+	</div>
+</body>
+
+</html>

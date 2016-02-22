@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" targetNamespace="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" elementFormDefault="qualified">
+	<xs:element name="generi" type="Tgeneri"/>
+	<xs:complexType name="Tgeneri">
+		<xs:sequence>
+			<xs:element name="genere" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

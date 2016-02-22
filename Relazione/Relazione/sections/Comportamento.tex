@@ -1,0 +1,14 @@
+\documentclass[../Relazione.tex]{subfiles}
+
+\begin{document}
+
+\section{Comportamento}
+
+Per gestire la parte relativa al comportamento si ricorre al linguaggio JavaScript: in questo modo è possibile rendere la validazione delle form e la segnalazione di eventuali errori immediata, per consentire all'utente di risolvere tutte le sue esigenze di interazione in maniera rapida ed efficace. Di conseguenza, sono state create delle funzioni di validazione per ogni form del sito (memorizzate negli omonimi file .js)  Ogni pagina con inserimento input ha un'area destinata alla visualizzazione errori, realizzata con uno span vuoto, il cui contenuto all'occorrenza viene riempito con il messaggio di errore del singolo input. L'evento scatenante, a cui sono associate le funzioni di validazione, è l'evento \textit{onsubmit}: quando una form viene inviata viene ritornato il valore della corrispondente funzione di validazione in .js, se questo valore è \textit{false} significa che sono stati rivelati uno (o più) errori, che vengono visualizzati nelle apposite aree e di conseguenza l'invio al server viene impedito. In caso contrario la funzione ritorna \textit{true} e quindi i valori della form vengono inviati al server.
+
+\subsection{button.js}
+
+Al fine di rendere il sito accessibile anche a chi dispone di schermi con dimensioni minori della media, a chi non utilizza la finestra del browser a tutto schermo o a chi visualizza il sito da mobile è previsto uno script JavaScript che permette di nascondere il menù. In particolare lo script si attiva al caricamento delle pagine e all'evento \textit{resize}. Nel caso in cui lo script rilevi una grandezza inferiore a 600px allora le voci del menu vengono al di fuori dell'area visibile e al loro posto compare un pulsante che, alla pressione, permette la visualizzazione del menù nascosto.
+
+			
+\end{document}

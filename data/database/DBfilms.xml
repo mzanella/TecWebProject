@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti ../data/database/DBfilm.xsd">
+<films>
+
+<film id="0">
+<locandina src="http://images.movieplayer.it/t/images/2015/11/20/hateful_eight_payoff_final_jpg_1003x0_crop_q85.jpg" alt="degli uomini camminano sotto la neve"/>
+<titolo>The Hateful Eight</titolo>
+<dataUscita>2016-02-02</dataUscita>
+<paese>USA</paese>
+<durata>187</durata>
+<trama>Lungo i sentieri rocciosi del Wyoming, una diligenza corre più forte del vento. Un vento che promette furia e tempesta. Ultima corsa per Red Rock, la diligenza si arresta davanti al Maggiore Marquis Warren, diligence stopper e cacciatore di taglie nero che ha servito la causa dell&amp;#39;Unione. Ospitato con riserva da John Ruth, bounty hunter che crede nella giustizia, meno negli uomini, Warren lo rassicura sulle sue buone intenzioni. Il viaggio riprende ma il caratteraccio di Daisy Domergue, canaglia in gonnella condotta alla forca, lo interrompe di nuovo. La sosta imprevista incontra e carica tra chiacchiere e scetticismo Chris Mannix, un sudista rinnegato promosso sceriffo di Red Rock. Incalzati dal blizzard, trovano rifugio nell&amp;#39;emporio di Minnie dove li attendono un caffè caldo e quattro sconosciuti. Interrogati a turno dal diffidente John Ruth probabilmente nessuno è chi dice di essere.</trama>
+<incasso valuta="euro" unitaMisura="M.">5</incasso>
+<valutazioneSito>4</valutazioneSito>
+<recensione>Nel teatro della Storia, la gente entra nelle vite altrui cambiandone la rotta. In The Hateful Eight sono otto le persone le cui vite si incrociano, un po’ per fato e un po’ per causa di forza maggiore. Siamo in Wyoming, poco dopo la Guerra di Secessione. Una bufera di neve colpisce una diligenza che sta portando John &amp;#39;The Hangman&amp;#39; Ruth (Russell) verso Red Rock, dove la donna che tiene prigioniera, l&amp;#39;assassina Daisy Domergue (Leigh), verrà condannata a morte e lui riceverà i diecimila dollari di taglia.&#13;
+&#13;
+I due incrociano prima il Maggiore Marquis Warren (Jackson) e poi il nuovo sceriffo di Red Rock, Chris Mannix (Goggins), entrambi senza più cavalli: inizialmente restii, i due li fanno salire sulla diligenza. Ma la tempesta di neve continua, e il gruppetto si deve rifugiare nel bungalow di Minnie Haberdashery. Solo che, arrivati alla stazione, di Minnie non c&amp;#39;è traccia. Ci sono invece altri quattro stranieri, anche loro in cerca di riparo: il messicano Bob (Bichir), il boia di Red Rock Oswaldo Mobray (Roth), il mandriano Joe Gage (Madsen) e il generale della Confederazione Sanford Smithers (Dern).&#13;
+&#13;
+Se la prima parte delle tre ore di The Hateful Eight mette subito in chiaro che il film non è esattamente il titolo più disimpegnato da lui diretto, ciò che Tarantino riesce a fare dentro le quattro mura di quel bungalow è a dir poco fenomenale. Poco male che The Hateful Eight non abbia avuto lo stesso riscontro di Django Unchained, anzi: è quasi un fattore naturale, se si analizza la filmografia del regista. Questo è dopotutto il side B di Django Unchained: più teorico, meno ovvio e immediato, più complesso, per nulla mainstream. Ma, come spesso accade coi side B, il risultato è sorprendente.&#13;
+&#13;
+The Hateful Eight sta a Django Unchained come Death Proof sta a Kill Bill, dove ovviamente i secondi sono i film più acclamati, mentre sui primi si sono riversati tutti i dubbi anche degli aficionados. Questi due sono i film in cui per davvero Tarantino ‘applica’ l’esperienza del cinema di una volta, andando al di là del mare di citazioni e omaggi a cui ci ha abituati. Che, va da sé, ci sono comunque e sono disseminati per tutta la durata: anche se questa volta l&amp;#39;&amp;#34;omaggio&amp;#34; più grande è addirittura quello di una colonna sonora nuova di zecca di Ennio Morricone, semplicemente splendida.&#13;
+&#13;
+In Death Proof, oltre al look audiovisivo vintage che &amp;#39;imitava&amp;#39; la pellicola che saltava e gracchiava, avevamo il double bill con Planet Terror nel progetto Grindhouse. Con The Hateful Hate, almeno negli States, c&amp;#39;è l&amp;#39;esperienza roadshow del film proiettato in un glorioso 70mm, con tanto di Intermission. Il risultato è, come Death Proof, un film che si appropria di strumenti di altri tempi eppure sembra vivere fuori dal tempo, in un universo che può essere solo dell’autore e di nessun altro. E se Death Proof era il suo film più teorico, questo è il suo più politico.&#13;
+&#13;
+Così come Jackie Brown è il suo più romantico: ed era all’epoca il side B, considerato assai minore, di Pulp Fiction... Diceva Ebert di Jackie Brown: &amp;#34;Si assapora ogni momento di Jackie Brown. Quelli che dicono che è troppo lungo hanno sviluppato un deficit d&amp;#39;attenzione verso il cinema&amp;#34;. Pensiero che si può benissimo applicare a The Hateful Eight. Che appunto sarà meno &amp;#39;divertente&amp;#39; di Django Unchained, ma ne scansa la ovvietà di narrazione che lo rendevano il meno coraggioso e paradossalmente personale (mica brutto, comunque) dei film del regista.&#13;
+&#13;
+In Django Unchained, ammetteranno pure i patiti, c&amp;#39;era una trama talmente lineare che portava troppo facilmente il pubblico a tifare per l’eroe. In The Hateful Eight il &amp;#39;problema&amp;#39;, per tutti, starà proprio nel manico: qui di eroi non ce ne sono. E se non ci sono eroi non c&amp;#39;è empatia, non si tifa, e non c&amp;#39;è catarsi. In The Hateful Eight ci sono semmai archetipi che si combattono a vicenda per la supremazia di una nazione divisa in due parti, e dove anche in zona neutra ci si continua a combattere e ferire a suon di insulti e bugie.&#13;
+&#13;
+Prendiamo quindi quella che per molti è una voragine di sceneggiatura. Senza svelare nulla, diciamo solo che riguarda l&amp;#39;identità di un personaggio, la sua nazionalità, e il modo in cui un altro personaggio lo mette al muro. Tarantino però, qualche scena dopo, sembra essersi dimenticato di questa cosa, facendo indirettamente smentire il &amp;#39;problema&amp;#39; a un altro personaggio ancora. Ma possibile che uno sceneggiatore come Tarantino, così preciso e perfetto e ossessivo nella &amp;#39;pulizia&amp;#39; dello script, si sia lasciato sfuggire un dettaglio mica da poco&amp;#63; Un dubbio però dovrebbe almeno venire.&#13;
+&#13;
+Qui gli &amp;#39;otto livorosi&amp;#39; non usano solo i cliché delle loro provenienze, del colore della pelle e della loro posizione politica per darsi battaglia, ma usano la menzogna come arma principale. Con la bugia non solo si ferisce e si orchestrano piani, ma addirittura ci si fa riconoscere e rispettare per quello che (non) si è. La menzogna è strumento per costruirsi rispetto e identità di fronte allo straniero. Ed è così che l&amp;#39;odio porta a un inevitabile bagno di sangue: i pregiudizi si alimentano così, e una volta scoperchiate le bugie resta solo da applicare la violenza e la legge della frontiera.&#13;
+&#13;
+The Hateful Eight è così una vera storia americana, in cui si percepisce chiaramente la natura degli archetipi e la violenza del suo dna. Per questo l&amp;#39;accusa al fatto che non ci sono veri personaggi suona ancora più ridicola: qui innanzitutto si tifa per il Cinema, nello specifico per un cinema in grado di descrivere le fondamenta di una nazione in un modo del genere. Mescolando Agatha Cristie e Sergio Leone, 10 piccoli indiani e Un dollaro d’onore, il mystery d’autore e lo splatter, il teatro sofisticato e il b-movie, il cinema da camera e Carpenter, Hitchcock e le serie tv western anni 60.&#13;
+&#13;
+E quando Tarantino a metà film interrompe (anche grazie al &amp;#39;solito&amp;#39; uso della divisione in capitoli) la linearità della narrazione, tenendo viva l’atmosfera misteriosa del whodunit, ci esalta ancora per un cinema che non ha nessun paragone in giro. Provate a trovare in giro qualcosa di così claustrofobico eppure intimo, ‘rassicurante’ (perché sai di trovarti in mani esperte) eppure sempre sorprendente. Tutta la seconda metà è davvero magistrale nel ribaltare aspettative e arrivare alle sue conclusioni.&#13;
+&#13;
+Questo è un film in cui, inspiegabilmente, quando Jennifer Jason Leigh (clamorosa) canta con la chitarra Jim Jones at Botany Bay sale una malinconia incredibile, nonostante la tensione per un fatto narrativo di cui solo il pubblico e il suo personaggio sono consci. Segno che ci sono ragionamenti altri che lavorano sottopelle. Che sia anche un film che richiede una seconda visione è scontato, perché il testo è talmente denso (e si, la prima volta richiede pazienza, questa sconosciuta…) che si rischia di perdere invece il lavoro mostruoso che Tarantino fa per elevarlo mille miglia oltre il ‘teatro filmato’. Cinema cristallino e maturo, che racchiude per davvero tutti i film del regista a partire da Le Iene, e va oltre.&#13;
+&#13;
+Le accuse di misoginia sono anche peggiori di quelle di chi ancora condanna Tarantino per l’uso della parola nigger (come se Tarantino fosse i suoi personaggi, e come se all’epoca questa parola non fosse ancora più usata di oggi…). Il fatto che tra l&amp;#39;altro in una lettera scritta di suo pugno da Lincoln sia quell’ ‘old Mary Todd&amp;#39;s calling’ a rafforzarne la presunta verità (ovvero il fatto che si citi la presenza della moglie) dovrebbe già far scattare un campanello d’allarme (‘That’s a nice touch’&amp;#33;). Ma è il personaggio di Daisy, che guarda gli uomini trucidarsi e farsi battaglia con sguardo sornione per tutto il film, a fare la differenza, nonostante la violenza a cui è sottoposta.&#13;
+&#13;
+Se poi però alla fine le cose non vanno come il femminismo vorrebbe, è perché purtroppo in The Hateful Eight, che è molto più oscuro e terribile di Bastardi Senza Gloria, la Storia prende il sopravvento sul Cinema: l’unica Verità, in The Hateful Eight, è che l’America è una nazione costruita sulla giustizia di frontiera e sulla Violenza. E questa è una verità che si preferisce tenere ovviamente ben nascosta sotto tutte le sue menzogne. </recensione>
+<genere>azione</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>si</inSala>
+<attori>Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh, Walton Goggins, Demiàn Bichir</attori>
+<regia>Quentin Tarantino</regia>
+</film>
+<film id="1">
+<locandina src="http://tweens.screenweek.it/files/2015/12/PPZ-poster_ita-2.jpg" alt="i protagonisti brandiscono le spade uno alle spalle dell'altro"/>
+<titolo>PPZ - Pride And Prejudice And Zombies</titolo>
+<dataUscita>2016-02-03</dataUscita>
+<paese>USA</paese>
+<durata>187</durata>
+<trama>Una misteriosa epidemia si è abbattuta sull'Inghilterra del XIX secolo e il Paese è invaso dai non morti. Elizabeth Bennet e le sue sorelle sono maestre nelle arti marziali e nell'uso delle armi e sono pronte a tutto per difendere la loro famiglia dalla temibile minaccia. Forte e risoluta, Elizabeth dovrà scegliere se continuare a combattere proteggendo le persone che ama o cedere all'attrazione per l'unico uomo capace di tenerle testa, il tenebroso colonnello Darcy.</trama>
+<incasso valuta="euro" unitaMisura="M.">3</incasso>
+<valutazioneSito>2</valutazioneSito>
+<recensione>Inghilterra vittoriana. Londra per la precisione. La nobiltà arroccata nel suggestivo countryside britannico, continuando a vivere come se niente fosse. Sì, si respira aria di Jane Austen, ma è ancora meglio di così: ci sono gli zombie. Che corrono, strepitano, si organizzano, e tutto il repertorio che contraddice la letteratura a riguardo (però oh, non lo fece già Romero con La terra dei morti viventi?). Operazione interessante quella di PPZ - Pride and Prejudice and Zombies, che infila a forza uno dei fenomeni più celebri della seconda metà del ‘900 in un quadro da XIX secolo.
+
+PPZ – Pride and Prejudice and Zombies: videointerviste in italiano a cast e regista
+PPZ – Pride and Prejudice and Zombies: videointerviste in italiano a cast e regista
+
+"Orgoglio e Pregiudizio e Zombie" approda sul grande schermo il 4 febbraio 2016.
+A luci di nuovo accese si ha ben chiaro ciò che non va con il film di Burr Steers, ovvero che osa troppo poco per un progetto che ha da essere fuori di testa. Freno a mano tirato dall’inizio alla fine, qualche scena vagamente splatter non basta a tenere alta l’asticella di un’opera che non prende mai davvero quota, sebbene non si possa altresì dire che lasci indifferenti. Orgoglio, Pregiudizio e Zombie è roba più per amanti delle convergenze improbabili in territorio cinematografico, per quelli che hanno qualcosa da dire sulla complessità di testi sovrapposti; tutte cose che, ad essere sinceri, riscaldano anche chi scrive, solo che qui non si è a un simposio di letteratura né abbiamo i crediti per tenere conferenze.
+
+Resta allora quell’impressione, a dire il vero piuttosto chiara, che un film così poteva (doveva?) premere di più l’acceleratore su talune componenti. Se infatti risulta da un lato interessante la scelta di mantenere un tenore a suo modo aulico, classico per così dire, dall’altro tocca pure confrontarsi con il fatto che sembra di assistere a due film diversissimi, da cui entriamo e usciamo in maniera a dire il vero straniante. E no, non è un bene.
+
+Perché forse per primi agli autori non era ben chiaro cosa PPZ dovesse essere, ed allora la sensazione di un’opera poco amalgamata, non priva di spunti ma in larga parte disattesi, o magari sepolti da un lavorio di commistioni non proprio felice. Ha i suoi momenti, ma che ciò basti consentiteci di dubitarne. Far coesistere l’impronta b-movie ad una fotografia leccata è senza dubbio pretesa affascinante ancorché già proposta, ma appunto, poi bisogna anche avere la meglio su certe lodevoli iniziative.
+
+La vicenda della famiglia Bennett, il cui padre manda le figlie in Asia per apprendere le arti marziali, rappresenta un invito a nozze per certuni, e francamente questo cosmo alternativo incuriosisce noi pure. Elizabeth, una delle Bennett, conosce l’affascinante Fitzwilliam Darcy, un noto cacciatore di zombie. La loro storia di amore/odio resta in primo piano, come si addice a certi racconti, solo che mentre i due si vomitano “complimenti” ed occhiatacce in puro stile british, di tanto in tanto salta fuori che a pochi metri qualche zombie vuole assaggiare loro il cervello, a crudo.</recensione>
+<genere>horror</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>si</inSala>
+<attori>Lily James, Sam Riley, Jack Huston, Douglas Booth, Bella Heathcote</attori>
+<regia>Burr Steers</regia>
+</film>
+<film id="2">
+<locandina src="http://th.cineblog.it/11ccj_Ox36whxsix5Ce8Hf3tOpU=/fit-in/655xorig/http://media.cineblog.it/7/7c7/la-quinta-onda-trailer-italiano-e-locandina-del-dramma-sci-fi-con-chloe-moretz-2.jpg" alt="la protagonista in primo piano con un fucile"/>
+<titolo>La quinta onda</titolo>
+<dataUscita>2016-02-02</dataUscita>
+<paese>USA</paese>
+<durata>113</durata>
+<trama>Basato sul primo libro della trilogia fantascientifica di Rick Yancey, autore conosciuto per aver scritto numerosi libri per ragazzi (tra i quali "Le straordinarie avventure di Alfred Kropp" e la trilogia "The Monstrumologist", ancora inedita in Italia), The 5th Wave racconta la storia di una ragazza che parte alla ricerca del fratello scomparso durante un attacco alieno. Al suo fianco ci sarà un giovane che ha sembianze umane ma comportamenti anomali riconducibili ad una vita extraterrestre.</trama>
+<incasso valuta="euro" unitaMisura="M.">3</incasso>
+<valutazioneSito>1</valutazioneSito>
+<recensione>La quinta onda prova ad accodarsi ad Hunger Games e Maze Runner, ma non riesce a mescolare gli elementi in modo da costituirne un’attrattiva valida. Non possedendo né l’ingente produzione del primo (e si risente di ciò in ogni singola inquadratura) né i toni netti e ben calibrati del secondo, il suo inserirsi nel filone è fallimentare e, tra già-visto e rotative cigolanti, impacciate e rallentanti, il suo retrogusto è quello di un minestrone insipido e mal cotto, di pezzi listati in modo cieco e quasi sprezzante, raffazzonato. </recensione>
+<genere>fantascienza</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>si</inSala>
+<attori>Chloë Grace Moretz, Nick Robinson, Ron Livingston, Maggie Siff, Alex Roe</attori>
+<regia>J Blakeson</regia>
+</film>
+<film id="3">
+<locandina src="http://media.cineblog.it/b/bdd/il-viaggio-di-norm-primo-trailer-italiano-del-film-danimazione-lionsgate-2.jpg" alt="Norm, un orso bianco, che cammina per le vie di New York"/>
+<titolo>Il viaggio di Norm</titolo>
+<dataUscita>2016-01-26</dataUscita>
+<paese>USA</paese>
+<durata>86</durata>
+<trama>Norm, un orso bianco e vegano e ballerino con la straordinaria capacità di parlare la lingua umana, deve lasciare il Polo Nord per raggiungere New York e fermare lo spietato costruttore Mr. Grenne, che sta per mettere in atto un piano di edificazione del Circolo Polare Artico destinato a mandarne in frantumi l'ecosistema.</trama>
+<incasso valuta="euro" unitaMisura="M.">3</incasso>
+<valutazioneSito>3</valutazioneSito>
+<recensione>Ora, ci è piuttosto chiaro a quale tipo di pubblico Il viaggio di Norm si rivolga, composto per lo più da bambini, diciamo dai 3 ai 10, magari con famiglia al seguito. Trattasi di una componente essenziale, che informa ogni singolo elemento del film, a partire dalla scrittura. A breve si soffermeremo anche sull’aspetto visivo, perché anche questo in un film d’animazione ha un suo peso. Tuttavia dove il film si mostra davvero carente è proprio sul fronte della scrittura, per niente coadiuvata dal montaggio, va detto; specie nella prima parte, tempi morti, passaggi raffazzonati, tutte magagne che non abbisognano di chissà quale budget per metterci una pezza.
+
+Nulla o poco da ridire sulla storia in sé, ennesima parabola naif a sfondo ecologista, tesa a sensibilizzare i più piccini seppur attraverso un contesto grottesco ed in fondo giocoso. Ciò che infatti può mettere in imbarazzo una persona più adulta, come certi improvvisi stacchi musicali con tanto di coreografia, può invece rivelarsi un prezioso divertissement per i più piccoli, ai quali i brandelli di trama vanno somministrati cum grano salis, visto la loro tendenza per lo più a viverlo un film anziché “comprenderlo”. D’altronde Il viaggio di Norm tenta di fare leva proprio su una struttura rodata, fatta di siparietti, sketch estemporanei. Si prendano i lemming: la loro presenza ad un certo punto diventa soverchiante, per quel misto di scaltrezza e tenerezza che vagamente li accomunano ai più celebri pinguini di Madagascar.
+
+Allora Il viaggio di Norm va inquadrato come prodotto, incidentalmente cinematografico, poiché non si mostra in nessun caso interessato ad amalgamare la serie di rimandi, citazioni e finanche le proprie stesse intuizioni in un lavoro omogeneo. Il risultato è infatti scomposto, indisciplinato nell’accezione negativa del termine, a tratti alienante proprio a motivo di questa sua incapacità di legare i vari ingredienti da cui è composto. Questo è un limite che attiene già alla sceneggiatura, sì, ma che con una regia meno asettica (inutili almeno metà dei movimenti di camera, tra l’altro) ed un montaggio più competente avrebbe comunque potuto aspirare a qualcosa di più. Conseguenza? Ritmo surreale, chiaramente in maniera del tutto involontaria, finanche inconsapevole.
+
+Sul fronte tecnico le attenuanti sono ben altre, e ci mancherebbe. Come sempre, però, lo stile va separato dalla tecnica; e qui si entra nella sfera della soggettività. Chi scrive ritiene questo tratto così cartoonesco, sempre uguale malgrado leggere variazioni, abbia fatto il proprio tempo, e chi debba osare di più anche a costo di fare brutte figure. Tecnicamente parlando, i limiti maggiori si segnalano su comparti come l’illuminazione, per esempio, a tratti rudimentale, vecchia non soltanto per gli standard di oggi ma anche per quelli di qualche anno fa. Stranamente tale aspetto appare gestito molto meglio in particolare in una sequenza, in mare aperto, di notte. Tuttavia il discorso è importante, poiché una buona illuminazione è requisito fondamentale ai fini di una credibilità visiva che trascende persino la qualità dei modelli, siano essi sfondi o personaggi; se ben illuminati, con annessa buona resa delle ombre e via discorrendo, se ne ricava un’armonia visiva che tende a farci passare sopra a tutto il resto. A queste condizioni, invece, con gli elementi in movimento praticamente “staccati” dall’ambiente entro il quale si muovono, l’effetto generato è straniante e addio sospensione d’incredulità.
+I limiti di produzioni come Il viaggio di Norm possono dunque essere anche di natura economica, ma non solo. Come rilevato qualche capoverso sopra, sulla carta emergono delle “intemperanze”, dovute più che altro ad una cura ridotta, quasi che questa il lavoro ultimato fosse in realtà la copia in brutta, in attesa di essere trasposta in bella. Certo, non tutti possono permettersi il budget, e dunque il tempo, di certe compagnie blasonate, ma allora ci si domanda se non sia il caso di valutare bene quali sono le proprie possibilità e regolarsi di conseguenza, concependo progetti in linea con le premesse. Qui, come in altri casi, si ha davvero l’impressione che su tale fase si glissi direttamente, sperando che da un lavoro di rattoppo ne venga fuori, se non un capolavoro, qualcosa di anche solo accettabile. La realtà dei fatti, quasi sempre, ci dice che purtroppo non è così.</recensione>
+<genere>animazione</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>si</inSala>
+<attori> Bill Nighy, Heather Graham, Rob Schneider, Ken Jeong, Loretta Devine</attori>
+<regia>Trevor Wall</regia>
+</film>
+<film id="4">
+<locandina src="http://pad.mymovies.it/filmclub/2005/12/045/locandinapg4.jpg" alt="V e Eve su sfondo rosso"/>
+<titolo>V per Vendetta</titolo>
+<dataUscita>2006-03-17</dataUscita>
+<paese>USA</paese>
+<durata>160</durata>
+<trama>Remember, remember, the 5th of November"... È questo il monito di apertura di V for vendetta, ispirato all' omonimo fumetto di Alan Moore e David Lloyd.
+Diretto da James McTeigue, assistente alla regia di Lucas e dei fratelli Wachowski, il film si svolge in un'immaginaria Gran Bretagna del futuro, governata da un regime totalitario, a cui un misterioso uomo mascherato, mister V, dichiara guerra. Un anarchico radicale, desideroso di riportare libertà e giustizia, in un paese in cui vigono ormai autoritarismo e intolleranza verso chiunque non aderisca al sistema. In nome della libertà, V riuscirà a convincere la giovane e bella Evey - cui salva la vita ad inizio del racconto - a combattere al suo fianco. Scritto e prodotto dai registi di Matrix, V for vendetta è un cocktail "esplosivo" che unisce effetti speciali ad un ritmo incalzante non privo di efficacia.
+Come può accadere per i film tratti da opere letterarie, resta il dubbio che il testo di partenza sia stato interpretato più o meno correttamente. Lasciamo agli esperti di fumetto l'ardua sentenza.</trama>
+<incasso valuta="euro" unitaMisura="M.">30</incasso>
+<valutazioneSito>5</valutazioneSito>
+<recensione>V potrebbe essere mio padre, vostro fratello, un rivoluzionario, una persona qualunque. V potrebbe anche essere un giorno magari il V Novembre. Ma V può essere anche un’idea e le idee resistono ai proiettili, alle classificazioni, agli abusi, superano le paure ed entrano nel tappeto rosso della leggenda. V è un eroe da leggenda, mascherato come Zorro. Z poi V, nel teorema di un alfabeto capovolto.
+V come Vendetta, per giustizia e libertà, tolte e sradicate prima di diventare un’ossessione vincente, V come Vittoria, non di Winston Churchill ma anzi di un’efferata dittatura che costringe l’Inghilterra a vivere nella censura, nel finto ordine prestabilito dalla categoria della paura, da esperimenti di cavie che non torneranno umane, dal potere di un Cancelliere, che vediamo minacciare solo da un video, quasi venisse da Matrix.
+Quando il mondo avrà rinunciato alla propria espressione, al proprio piccolo anarchico centimetro vitale sostituendolo con l’ingannevole "Agio" grasso e 'sbi-vaccato' difronte alla Tv allora V diventa protagonista e crea corti circuiti.
+I fratelli Andy e Larry Wachowski a sette anni di distanza da "Matrix", tornano a dipingere un affresco elettronico, fatto di effetti e visioni, capace di scuotere e accendere idee, d’ingoiare la pillola blu e vedere; V come Verità.
+Il film corre nella sua energica confusione, nei suoi omicidi; nel palcoscenico che disegna la Vendetta di V scorrono irruzioni alla televisione pubblica, omicidi di assassini al potere, esplosioni del Palazzo di Giustizia, fino al colpo letale, dove crollerà il Parlamento inglese tra fuochi d’artificio che rendono l’atto terroristico liberatorio e qui addirittura ideologico. Lo sviluppo assume forme complesse, neanche l’amore tra lui, eroe mascherato, e lei, eroina casuale senza maschere, riesce a trovare il suo svolgimento; l’intuizione dell’amore è affidata a noi spettatori, i protagonisti non hanno il tempo per credere nel sentimento ed anzi non possono farlo. La volontà del film è nell’atto di V che deve compiersi, costretto da una sorta di Volontà divina, che vede il 5-V Novembre come inizio (giorno dell’avvertimento, esplode il palazzo della giustizia di Londra), ed epilogo esatto, un anno dopo (giorno del giudizio della giustizia ristabilita, esplode il parlamento inglese).
+Un anno per tracciare una mappa ideologica e un cambiamento, V trasforma le sue idee da terrorismo in giustizia, le bugie in verità, dal tepore al risveglio; un anno cinematograficamente spettacolare, attratti da carnose rose rosse in un fascio elegante di leggendari coltelli.</recensione>
+<genere>azione</genere>
+<annoProduzione>2006</annoProduzione>
+<inSala>no</inSala>
+<attori>Hugo Weaving, Natalie Portman, Stephen Rea, Tim Pigott-Smith, John Hurt, Stephen Fry, Rupert Graves, Roger Allam, Ben Miles, Sinéad Cusack, Natasha Wightman, Imogen Poots, John Standing, Eddie Marsan, Clive Ashborn</attori>
+<regia>James McTeigue</regia>
+</film>
+<film id="5">
+<locandina src="http://aforismi.meglio.it/img/film/Trainspotting-cover.jpg" alt="i protagonisti del film in posa"/>
+<titolo>Trainspotting</titolo>
+<dataUscita>1996-01-01</dataUscita>
+<paese>USA</paese>
+<durata>180</durata>
+<trama>romanzo di Irvin Welsh. Quattro amici drogati in Scozia. Il protagonista all'inizio elenca una serie di ottime ragioni che inducono a drogarsi. In sostanza se prendi l'eroina hai un solo problema: l'eroina. Se non la prendi hai tutti gli altri problemi della vita, infinitamente peggiori. Gli amici parlano, si bucano, fumano, c'è anche un po' di sesso. Muore una bambina figlia di drogata. Tentativi di disintossicarsi. Genitori quasi complici. Infine i quattro incappano in un fortunato colpo: guadagnano sedicimila sterline vendendo una partita di droga. McGregor, il protagonista, ruba il denaro. Si redimerà.
+Le ultime parole del film sono: "..scegliete un lavoro, la famiglia, lavatrici, automobili, apriscatole elettrici e un cazzo di televisore col maxischermo. E poi una domenica chiedetevi chi cazzo siete e perché avete scelto di marcire...". Nel frattempo abbiamo visto il ragazzo pescare due supposte, appena espulse, da un water, un altro che riempie di merda un lenzuolo. E ogni particolare di iniezioni, vomito, sporcizia, turpiloquio, eccetera. Per giustificare certe iniziative il regista ricorre a volte all'ironia e al surreale e in quel senso il film riesce a funzionare. Certo, è drammatico il significato generale. Questo film non è nemmeno ammiccante, è una chiara apologia della droga. Ci offre un mondo come se fosse normale, e non lo è.
+Frank Sinatra era drogato ne L'omo dal braccio d'oro, poi incontrava Kim Novak che lo salvava. Qui ci si dice che la salvezza sta nell'eroina.</trama>
+<incasso valuta="euro" unitaMisura="M.">30</incasso>
+<valutazioneSito>4</valutazioneSito>
+<recensione>Trainspotting è un film del 1996 diretto da Danny Boyle, tratto dall’opera omonima di Irvine Welsh del 1993. Un lungometraggio diventato un cult degli anni ’90, molto amato dai giovani dell’epoca. Il film affronta in modo ora drammatico, ora ironico, ora grottesco, il dramma della dipendenza dall’eroina, in una Scozia degradata e socialmente disagiata. La pellicola riesce in modo perfetto a descrivere il rapporto dei giovani con la droga; cosa li avvicina ad essa, cosa può farli allontanare, cosa li fa ritornare nel tunnel. Solo la morte di un innocente li fa ragionare e provare a vivere diversamente.
+
+Scene forti si alternano a sequenze drammatiche; il risultato finale è un film che fa riflettere, ma non bacchetta, né mitizza l’eroina. E’ proprio il caso di dirlo: una giusta dose. Più che i giovani o l’eroina, ad essere criticata è la società, che a partire dagli anni ’90 è diventata sempre più smarrita, svuotata di ideali e punti di riferimento. Nel libro a cui si ispira invece, c’è una maggiore crudezza; come ad esempio accadde per Christiane F. – Noi, i ragazzi dello zoo di Berlino (1981), snellito nella trasposizione cinematografica ma rimasto immutato quanto a durezza delle immagini.
+
+Tra le sequenze più suggestive certamente va annoverata quella in cui Mark, preso da crisi di astinenza, vede la piccola Dawn, morta tragicamente, camminare sul soffitto e poi girare la testa al contrario verso di lui. Una scena ripresa più volte in modo ironico, come vedremo, specie nei cartoon.
+
+La scena più divertente è invece quella in cui le feci di Mark, racchiuse in un lenzuolo, finiscono sui genitori della fidanzata.
+
+Per il regista inglese Danny Boyle si tratta del secondo film e in fondo anche il più noto, nonostante ne abbia girati successivamente altri dieci. Quanto al cast, nei ruoli principali troviamo Ewan McGregor – Mark Renton, Ewen Bremner – Spud, Jonny Lee Miller – Sick Boy, Kevin McKidd – Tommy, Susan Vidler – Allison.
+
+Particolarmente apprezzata è anche la colonna sonora del film, racchiusa in 2 volumi, quest’ultimo di difficile reperimento. In esso si trovano anche le canzoni che il regista avrebbe voluto inserire nel film o che comunque, per usare parole sue, “hanno ispirato il film”. In particolare il regista si duole di non aver inserito questi due brani: The Passenger di Iggy Pop e Atmosphere dei Joy Division, la band da cui, dopo la morte del loro leader Ian Curtis, sono nati i New Order.
+
+Il film è stato più volte oggetto di citazioni o riferimenti. In una scena del film Dobermann, del 1997, compare proprio la locandina di Trainspotting. Nel 3º episodio della quindicesima stagione de I Simpson Bart e Lisa hanno un’overdose di “zucchero”, e vedono Maggie camminare sul soffitto e girare la testa, proprio come la neonata Dawn. Lo stesso succede nel 5º episodio della seconda stagione de I Griffin, alla fine della puntata Stewie è nel suo lettino in preda a crisi d’astinenza, e vede se stesso gattonare sul soffitto e girare la testa. Nel 2009 il rapper italiano Fabri Fibra si è ispirato alle scene finali di Trainspotting per girare il videoclip della canzone Incomprensioni. Nella serie TV Chuck, il 2º episodio della prima stagione inizia con la stessa scena di corsa e la stessa canzone di Trainspotting.
+
+Infine, una curiosità. Nonostante il film sia ambientato ufficialmente a Edimburgo, quasi tutte le scene sono state girate a Glasgow; tranne la scena di apertura, girata proprio a Edimburgo, e quella finale, girata a Londra.</recensione>
+<genere>dramma</genere>
+<annoProduzione>1996</annoProduzione>
+<inSala>no</inSala>
+<attori>Ewan McGregor, Robert Carlyle, Ewen Bremner, Jonny Lee Miller, Kevin McKidd, Kelly Macdonald, Peter Mullan, James Cosmo, Eileen Nicholas, Susan Vidler, Pauline Lynch, Shirley Henderson, Stuart McQuarrie, Irvine Welsh</attori>
+<regia>Danny Boyle</regia>
+</film>
+<film id="6">
+<locandina src="http://pad.mymovies.it/filmclub/2004/08/005/locandina.jpg" alt="Howl e Sophie in primo piano con il castello errante col fumo che esce dai camini in secondo piano"/>
+<titolo>Il castello errante di Howl</titolo>
+<dataUscita>2004-01-01</dataUscita>
+<paese>Giappone</paese>
+<durata>95</durata>
+<trama>Sophie è una ragazza semplice, appassionata del suo lavoro, che a soli 18 anni gestisce il negozio di cappelli del padre defunto, passando così l'intera giornata tra il negozio e la casa. Mentre va in panetteria a trovare la sorella minore, Lettie, viene importunata da due gendarmi, presenti in città per l'imminente guerra, ma è salvata da un avvenente ragazzo, il misterioso mago Howl, il quale prova subito simpatia per la ragazza. Tornata in negozio, Sophie riceve una visita della Strega delle Lande Desolate a causa delle attenzioni ricevute da Howl: la strega da tempo ricerca il cuore di Howl per averlo tutto per sé, e scaglia una maledizione sulla ragazza, trasformandola in un'anziana donna e impedendole di rivelare la verità sulla propria condizione. Impaurita dal nuovo aspetto e temendo la reazione dei suoi familiari, Sophie scappa via.
+
+Con la scusa di andare a trovare la minore delle sue sorelle si incammina e, stanca per la sua nuova forma fisica, cerca un bastone che possa darle aiuto nello scalare le montagne: cerca così di prendere un bastone di legno in una siepe, che scopre essere di uno spaventapasseri animato dalla testa di rapa, salvandolo. Chiede allora ironicamente a "Testa di Rapa", il nome che dà allo strano bastone, un rifugio per la notte, e lui la conduce alla dimora di Howl, un castello in grado di spostarsi da un posto all'altro.
+
+Una volta dentro, Sophie incontra il demone del fuoco Calcifer, il quale alimenta il castello; essendo un demone molto potente, si accorge che Sophie porta addosso una maledizione ingarbugliata di cui ella non può fare parola. Calcifer rivela che nel momento in cui Sophie scioglierà la maledizione che lo lega al castello e ad Howl, immediatamente lui scioglierà la maledizione che rende Sophie una nonnina.
+
+Al calore del fuoco Sophie si addormenta e viene svegliata la mattina successiva dal bussare di gente alla porta del castello. Markl, un giovane apprendista di Howl, arrivato al piano terra, riceve un invito da parte del re e, perplesso per la presenza di Sophie, chiede chi essa sia, ma senza buttarla fuori. Nel corso della storia il loro rapporto diventerà sempre più forte, come quello di due fratelli. Intanto, mentre Sophie si adatta alla vita del castello, scopre che la porta d'ingresso è un portale magico che conduce in quattro luoghi diversi,tutti distinguibili da diversi colori situati in un cerchio diviso in quattro parti sul pomello della porta e sul muro d'entrata (rosso, giallo, verde e nero) dal mare alla montagna. Inoltre, in ognuno di questi luoghi Howl è conosciuto con un nome diverso.
+
+Quando appare Howl, Sophie si presenta come la donna delle pulizie del castello, assunta da Calcifer. Howl capisce subito che la nonnina è in realtà la giovane incontrata tempo prima, ma non lo vuol far notare. Inizialmente, Sophie vive tra la città di mare lontana dalla guerra (che ricorda proprio la prima guerra mondiale, per esempio le uniformi dei soldati che importunano Sophie, giacca blu e pantaloni rossi, sono uguali a quelle francesi del 1914), la capitale in cui la misteriosa scomparsa del principe ereditario Justin fa sì che la guerra si insinui in città e una splendida campagna, incontaminata.
+
+Il re convoca Howl per combattere in guerra, sia come Jenkins sia come Pendragon (due maschere del potente mago), e Sophie scopre che l'uso delle molteplici identità lo aiuta ad essere libero. Tuttavia, Howl teme Madame Suliman, maga di corte reale e suo ex mentore, e chiede a Sophie di andare a parlarle al suo posto, presentandosi come la madre di Pendragon e dichiarando quanto codardo sia il figlio, per convincere il re a non farlo andare in guerra.
+
+A palazzo, Sophie si imbatte in un cane asmatico, Heen, che inizialmente pensa essere Howl sotto copertura. Incontra anche la Strega delle Lande Desolate, che, dopo essere stata allontanata cinquant'anni prima, cerca di riconquistare il patrocinio della casa reale. Invece di accoglierla, la Maga Suliman punisce la Strega, scaricando tutta la sua potenza su di lei e facendole assumere la sua vera forma: un'innocua vecchietta, con pochi ricordi delle sue azioni passate, come la sua ossessione per il cuore di Howl. Suliman dice a Sophie che Howl incontrerà la stessa sorte se non contribuisce alla guerra. Sophie, prendendo le difese di Howl, protesta con veemenza, indebolendo per qualche istante l'incantesimo della Strega grazie all'amore nelle sue parole. Suliman, comprendendo i sentimenti di Sophie, realizza che proprio lei è il punto debole di Howl.
+
+Howl, sotto i panni del Re, arriva per salvare Sophie, ma la sua copertura salta quando il vero Re entra nella sala. Suliman cerca di intrappolare Howl, ma i due riescono a fuggire, con la Strega delle Lande, ormai inerme, e il cane Heen. L'anello magico di Howl permette a Sophie di arrivare da Calcifer, mentre Suliman inizia il suo inseguimento per raggiungere Howl.
+
+Sophie scopre che Howl si trasforma in un uccello capace di interferire nello svolgimento della guerra, ma ad ogni trasformazione diventa più difficile tornare alla forma umana. Howl, per una maggiore copertura, apporta delle modifiche al castello: una delle entrate corrisponde a quella della vecchia casa di Sophie, mentre un'altra alla residenza d'infanzia di Howl, un dono che fa a Sophie.
+
+Sophie cambia continuamente aspetto, da vecchia a giovane e viceversa, fino a che non si stabilizza temporaneamente ad un aspetto giovane con i capelli color argento. Mentre passeggiano per il giardino donato a Sophie, una nave bombardiere vola sopra la casa di Howl e lui, inorridito dalla quantità di bombe al suo interno, ne provoca il malfunzionamento. Non solo la nave subisce i danni: anche il braccio sinistro di Howl,si ricopre in parte di piume, mentre le dita si trasformano in lunghi artigli. Tuttavia, i sottoposti di Suliman attaccano i due ed Howl è costretto a nascondere Sophie nel castello, mentre lui torna a combattere.
+
+La madre di Sophie visita la casa e riconosce in qualche modo la figlia, nonostante il suo aspetto, ma dopo un felice ritrovo, sotto la minaccia di Suliman, lascia dietro di sé una borsa contenente un "insetto spione". La Strega delle Lande lo scopre e lo distrugge buttandolo su Calcifer. Purtroppo, Calcifer si ammala dopo aver mangiato l'insetto, diventando incapace di proteggere il castello, e quando Markl apre le finestre per arieggiare l'ambiente in cui la Strega delle Lande ha fumato il sigaro trovato nella borsa lasciata dalla madre di Sophie, la copertura rischia di saltare.
+
+Pochi istanti dopo, la città subisce un bombardamento a tappeto da aerei nemici, mentre gli emissari di Suliman invadono il negozio di cappelli. Dopo essere arrivato al momento giusto per proteggere il negozio di cappelli dai bombardamenti, Howl riesce a fermare l'esplosione di una bomba, proprio nel cortile di casa, e dopo aver risistemato le protezioni del castello, aiutando Calcifer a riprendersi, riparte per salvare la città dai bombardamenti, confidando a Sophie di non voler più scappare perché adesso ha trovato qualcuno da proteggere e difendere:lei. Per far perdere le loro tracce, Sophie convince Calcifer ad abbandonare il focolare e a distruggere così il castello, il cui movimento dipendeva interamente dal demone. Distrutto tutto, Calcifer riprende possesso del vecchio posto, ma grazie alla treccia che gli dona Sophie recupera le forze perse, e con i resti del castello crea una versione più piccola del castello errante, così da andare in aiuto ad Howl.
+
+In tutto questo, la strega intuisce che il cuore di Howl è custodito dalle fiamme di Calcifer (Calcifer ha bisogno di una parte di qualcuno per contribuire nella magia potente) e lo afferra. Prendendo il cuore di Howl, la strega prende anche Calcifer, il quale, grazie all'effetto della treccia di Sophie, diventa molto più forte, e il fuoco che ne consegue, rischia di uccidere la strega.Per salvarla dalla combustione, Sophie butta addosso alla strega ed a Calcifer dell'acqua. Con Calcifer quasi estinto, ciò che resta del castello si rompe in due parti, una in cui si trovano Sophie e Heen, che cadono all'interno di un dirupo, un'altra in cui si trovano Markl e la strega, con l'ormai debole Calcifer ancora nelle sue mani (in tutto questo Sophie mantiene le sembianze giovanili).
+
+Sophie cade in lacrime, credendo di aver ucciso sia Calcifer sia Howl, visto che le loro vite sono collegate. Mentre singhiozza, l'anello che le ha dato Howl emette una luce che indica una porta del castello. La ragazza cammina attraverso di essa, e Heen la segue con riluttanza: si ritrovano nel passato di Howl. Sophie vede la casa d'infanzia di Howl e il momento in cui Howl ha catturato Calcifer, una giovane stella cadente, stipulando un contratto con lui. Ad un tratto Sophie viene risucchiata indietro nel tempo presente, ma prima di partire riesce ad urlare ad Howl e a Calcifer che lei sa come aiutarli, e che se la aspetteranno lei darà loro una mano in futuro. Sophie segue poi la strada indicata da Heen, che continua a sollecitarla perché faccia in fretta, prima che il passaggio fuori dal tempo e dallo spazio crolli.
+
+Tornando al presente, Sophie trova Howl, ormai perso nella forma di uccello davanti alla porta, e proprio in quell'istante si rende conto che lui l'ha aspettata per tutto quel tempo. Quando raggiungono gli altri, Howl diventa di nuovo umano e Sophie supplica la strega di restituire il cuore, che mette di nuovo nel petto di Howl, con l'accordo di Calcifer.
+
+Anche se Howl non ha ancora ripreso conoscenza Calcifer torna nella sua forma originale e vola via. Con Calcifer lontano, i resti del castello scivolano giù per il pendio della montagna e Testa di Rapa si sacrifica frenando la caduta per salvare gli altri, spezzandosi. Come ricompensa delle sue azioni coraggiose, Sophie gli dà un bacio, trasformandolo di nuovo nel principe Justin, che era stato maledetto da una strega fino a che non avesse ricevuto un bacio dal suo vero amore.
+
+Ormai, Sophie è riuscita a tornare al suo aspetto giovanile (con l'eccezione dei suoi capelli d'argento) e Howl recupera le forze, grazie al suo cuore. Il principe Justin si rende conto che Sophie è innamorata di Howl, mentre Suliman, che spia il gruppo utilizzando Heen (il cane infatti era stato inviato per seguire ogni movimento del gruppo, ma, fedele a Sophie, contatta Suliman solo alla fine per darle la notizia che tutto è finito bene), decide di porre fine alla guerra. La strega delle Lande capisce che l'amore di Justin non è ricambiato e per questo, rassicurandolo, gli dice di non preoccuparsi,e, scherzosamente, aggiunge che ad aspettarlo ci sarà ancora lei.
+
+Calcifer, rendendosi conto che non può sopportare di lasciare i suoi amici, torna da loro. Howl, Sophie e gli altri sono poi visti a bordo di un nuovo castello errante in volo, alimentato da Calcifer di sua spontanea volontà, mentre gli aerei bombardieri tornano a casa perché la guerra è finita. Il film termina con Markl e Heen che giocano su un prato del castello, la strega seduta come una nonna cordiale, mentre Howl e Sophie si baciano su di un balcone del castello mentre vola nel cielo.</trama>
+<incasso valuta="euro" unitaMisura="M.">25</incasso>
+<valutazioneSito>5</valutazioneSito>
+<recensione>Il genio ha colpito ancora. Dopo più di vent'anni di carriera c'è veramente da togliersi il cappello davanti ad uomo, prima ancora che regista, capace come nessuno mai prima nel campo del cinema d'animazione (e non solo) di riuscire a centrare sempre e comunque l'obbiettivo che ogni cineasta dovrebbe avere come scopo unico: emozionare. E di emozioni, l'ultima opera di Hayao Miyazaki, ne offre veramente a bizzeffe. Howl's Moving Castle, è un ulteriore tassello, nel mosaico che il regista giapponese sta componendo col passare degli anni che mescola l'attenzione alle tematiche ambientali, all'utilizzo malsano della tecnologia, che propone esseri umani calati in universi fantastici ed immaginari, dove creature soprannaturali insegnano all'uomo come vivere e quali valori seguire e difendere.
+Tra realtà dell'immagine e metafore, il film si dipana lentamente, offrendo la abituale ma sempre fenomenale panoramica sui paesaggi e personaggi da sogno (il film realizzato in maniera tradizionale è visivamente impressionante), nei quali la fantasia di Miyazaki e di Joe Hisashi, autore della colonna sonora, si sbizzarriscono raggiungendo vette se possibile ancora più elevate che nel premiato Spirited Away (La città incantata). Attuale e concettualmente scevro da contaminazioni ideologiche di qualsivoglia natura, Howl,riesce ad essere pellicola antimilitarista, raffinato melò sentimentale, grande spettacolo di intrattenimento per tutti ed, in ultimo, saggio ammonimento sull'importanza delle relazioni interpersonali tra gli esseri umani. Venezia s'inchina. E noi altrettanto.</recensione>
+<genere>animazione</genere>
+<annoProduzione>2004</annoProduzione>
+<inSala>no</inSala>
+<attori>Chieko Baisho, Takuya Kimura, Akihiro Miwa, Tatsuya Gashuin, Ryunosuke Kamiki, Mitsunori Isaki, Haruko Kato</attori>
+<regia> Hayao Miyazaki</regia>
+</film></films>
+<filmsProssimamente>
+<filmProssimamente id="0">
+<locandina src="http://th.cineblog.it/EeQUqFmKjAtvc7m8STtCp0d_4uc=/fit-in/655xorig/http://media.cineblog.it/a/a3c/nosferatu-friedrich-wilhelm-murnau-poster.jpg" alt="ombra del vampiro "/>
+<titolo>Nosferatu il vampiro</titolo>
+<dataUscita>2016-01-08</dataUscita>
+<paese>USA</paese>
+<durata>160</durata>
+<trama>Nosferatu il vampiro (uno dei capisaldi indiscussi del cinema espressionista tedesco) è stato per decenni il solo film vampirico ammesso nelle discussioni colte dei critici, ma- come tutti i film sul tema- viene spesso stroncato, nonostante abbia ispirato nel 1979 una personalità quale quella di Werner Herzog. Fortunatamente la sorte volle salvarne una copia, perché la pellicola fu condannata al rogo non per il suo contenuto erotico ma per una più semplice bega legale. Murnau infatti pensò bene di non pagare nessun diritto a Bram Stoker pur essendo Nosferatu apertamente tratto dal romanzo del giornalista irlandese. E così il nostro vampiro si trovò presto al centro di una causa intentata dalla vedova Stoker contro la casa produttrice. Nonostante Murnau avesse cambiato tutti i nomi dei personaggi la causa fu vinta e il tribunale decretò la distruzione di tutte le copie del film ma qualche "anima diabolica" provvide a salvarne i negativi.</trama>
+<genere>horror</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>no</inSala>
+<attori>Max Schreck, Gustav von Wangenheim, Greta Schroeder, Alexander Granach, Georg H. Schnell</attori>
+<regia>Friedrich Wilhelm Murnau</regia>
+</filmProssimamente><filmProssimamente id="1">
+<locandina src="http://s3.foxfilm.com/foxmovies/production/films/103/images/posters/464-film-page-large.jpg" alt="Deadpool, il protagonista, mostra la pistola mentre si tiene la cintura"/>
+<titolo>Deadpool</titolo>
+<dataUscita>2016-02-18</dataUscita>
+<paese>USA</paese>
+<durata>107</durata>
+<trama>Tratto dal fumetto della Marvel Comics, Deadpool racconta la storia del mercenario Wade Wilson, ex agente operativo delle Special Forces, che, dopo essere stato sottoposto a un terribile esperimento, acquisisce l'eccezionale potere del Fattore Rigenerante e abbraccia una nuova identità. Con la sua nuova abilità di guarire rapidamente e un pungente senso dell'umorismo, Deadpool andrà a caccia dell'uomo che gli ha quasi rovinato la vita.</trama>
+<genere>avventura</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>no</inSala>
+<attori>Ryan Reynolds, Morena Baccarin, Ed Skrein, T.J. Miller, Gina Carano</attori>
+<regia>Tim Miller</regia>
+</filmProssimamente><filmProssimamente id="2">
+<locandina src="http://static.rbcasting.com/LA-RICOMPENSA-DEL-GATTO-Poster-Locandina-2016.jpg" alt="La protagonista è stesa nell'erba con in bocca un fil d'erba "/>
+<titolo>La ricompensa del gatto</titolo>
+<dataUscita>2016-02-10</dataUscita>
+<paese>Giappone</paese>
+<durata>80</durata>
+<trama>Haru, una ragazza di 17 anni stanca e annoiata dalla sua vita studentesca, un giorno salva un gatto che sta per essere investito da un camion per la strada. Durante la notte il Re dei Gatti va a farle visita: il gatto che la ragazza ha salvato è nientemeno che il Principe dei Gatti e suo padre, immensamente grato del gesto, vuole ricompensarla facendole sposare il suo giovane figlio. Ma quando nella notte Haru verrà rapita e portata nel Regno dei Gatti per le nozze, andranno in suo soccorso il gatto Baron, il gattone Muta e il corvo Toto (tre personaggi già presenti ne I sospiri del mio cuore). Riuscirà Haru a tornare nel suo mondo? Riuscirà a diventare più consapevole e sicura di sé grazie all'esperienza nel Mondo dei Gatti?</trama>
+<genere>animazione</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>no</inSala>
+<attori>Chizuru Ikewaki, Yoshihiko Hakamada, Aki Maeda, Takayuki Yamada, Hitomi Sato</attori>
+<regia>Hiroyuki Morita</regia>
+</filmProssimamente><filmProssimamente id="3">
+<locandina src="http://media.cineblog.it/7/7a1/zoolander-2-secondo-trailer-italiano-e-nuove-locandine-2.jpg" alt="i protagonisti in posa"/>
+<titolo>Zoolander 2</titolo>
+<dataUscita>2016-02-12</dataUscita>
+<paese>USA</paese>
+<durata>170</durata>
+<trama>Il film torna a raccontare la vita di Derek Zoolander (Ben Stiller). È stato il modello più famoso al mondo. Le sue espressioni hanno cambiato radicalmente il mondo della moda ma ora Derek deve tornare nel mondo dell'alta moda per salvare le popstar del mondo.</trama>
+<genere>comico</genere>
+<annoProduzione>2016</annoProduzione>
+<inSala>no</inSala>
+<attori>Ben Stiller, Owen Wilson, Penelope Cruz, Benedict Cumberbatch, Will Ferrell</attori>
+<regia>Ben Stiller</regia>
+</filmProssimamente></filmsProssimamente>
+</database>

@@ -1,0 +1,687 @@
+/*----------PROPRIETÀ GENERALI--------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: black;
+}
+body {
+    font-family: "Verdana", "Helvetica", "sans-serif";
+    font-size: 0.9em;
+    margin: auto;
+    color: black;
+    background-color: black;
+}
+a {
+    color: blue;
+}
+a:active {
+    color: #B20000;
+}
+a:visited {
+    color: #551A8B;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    padding-top: 0.5em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+h3 {
+    font-size: 1.2em;
+}
+.placeholder {
+    color: #969696;
+    font-style: italic;
+}
+.text {
+    color: black;
+}
+#menuButton {
+    display: none;
+}
+#closeButton {
+    display: none;
+}
+form div span {
+    color: red;
+    padding-top: 0.5em;
+}
+form span.obbligatorio {
+    color: red;
+    padding-top: 0em;
+}
+
+/*------------------FINE PROPRIETÀ GENERALI------------*/
+
+
+/*------------------PROPRIETÀ HEADER-------------------*/
+
+div#header {
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+}
+img#imgHeader {
+    width: 300px;
+    height: 150px;
+}
+
+/*-----------------FINE HEADER-----------------------*/
+
+
+/*--------------PROPRIETÀ NAVIGATION------------------*/
+
+div#nav {
+    width: 90%;
+    padding-left: 10%;
+    min-height: 3em;
+    line-height: 3em;
+    color: black;
+    background-color: #EBF0F4;
+    overflow: visible;
+}
+ul.menulist {
+    width: 100%;
+    float: left;
+    overflow: visible;
+    background-color: #EBF0F4;
+    list-style: none;
+}
+ul.menulist li {
+    float: left;
+    overflow: visible;
+    text-align: center;
+    font-weight: bold;
+    width: 10%;
+    min-width: 10em;
+}
+ul.menulist a {
+    display: inline-block;
+    width: 100%;
+}
+ul.menulist a:hover {
+    display: inline-block;
+    color: white;
+    background-color: #B20000;
+}
+li.selected {
+    display: inline-block;
+    color: white;
+    background-color: #B20000;
+    width: 10%;
+}
+li#saltamenu {
+    position: absolute;
+    top: -9999em;
+}
+
+/*--------------FINE NAVIGATION---------------*/
+
+
+/*--------------BREADCRUMBS--------------------*/
+
+div#breadcrumbs {
+    width: 78%;
+    margin-left: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    min-height: 2em;
+    line-height: 2em;
+    background-color: #EBF0F4;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*-------------FINE BREADCRUMBS----------------*/
+
+
+/*-------------LOGINBAR-------------------------*/
+
+div#loginBar {
+    width: 78%;
+    margin-left: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    min-height: 3em;
+    line-height: 3em;
+    background-color: white;
+    color: black;
+    text-align: right;
+}
+a.loginLink {
+    margin-right: 1em;
+}
+.loginMessage {
+    padding-top: 1em;
+}
+
+/*-------------FINE LOGINBAR--------------------*/
+
+
+/*-------------CONTENUTO-----------------------*/
+
+div#content {
+    width: 78%;
+    margin-left: 10%;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    color: black;
+    background-color: white;
+}
+
+/*-----------FINE CONTENUTO-------------------*/
+
+
+/*--------------FOOTER------------------------*/
+
+div#footer {
+    /*border-top: 1px solid white;*/
+    background-color: #202020;
+    color: white;
+    min-height: 3em;
+    line-height: 3em;
+    margin-left: 10%;
+    width: 80%;
+}
+.elementiFooter {
+    padding-top: 1em;
+    margin-left: 1%;
+}
+
+/*--------------FINE FOOTER------------------*/
+
+
+/*-----------LOGIN FORM-----------------------*/
+
+#loginForm {
+    padding-top: 0.5em;
+}
+h2#h2Login {
+    margin-bottom: 0em;
+}
+input#invio {
+    margin-top: 2em;
+    padding: 0.2em;
+}
+p#erroreLogin {
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+
+/*-----------FINE LOGIN FORM-----------------------*/
+
+
+/*--------------PAGINA ADMIN-----------------*/
+
+.adminList {
+    padding-bottom: 1em;
+    margin-left: 1em;
+}
+.adminList li {
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+h2#confSpostato {
+    text-align: center;
+    margin-bottom: 1em;
+}
+p#tornaAdmin {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+/*--------------FINE PAGINA ADMIN------------*/
+
+
+/*--------------PROPRIETÀ GENERALI FORM, LABEL E INPUT---*/
+
+form {
+    padding-top: 1em;
+}
+fieldset {
+    border: none;
+    padding-bottom: 1.5em;
+}
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+label {
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+input {
+    display: block;
+}
+textarea {
+    display: block;
+    margin-bottom: 1em;
+    width: 85%;
+}
+
+/*----------FINE PROPRIETÀ GENERALI FORM, LABEL E INPUT---*/
+
+
+/*---------------FORM REGISTRAZIONE----------*/
+
+form#registrazione fieldset#categorie label {
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 0;
+    margin-left: 1.5em;
+}
+form#registrazione fieldset#categorie input {
+    float: left;
+    margin-top: 0.2em;
+}
+form#registrazione fieldset#categorie {
+    padding-top: 1em;
+}
+
+/*--------------FINE FORM REGISTRAZIONE------*/
+
+
+/*--------------FORM FILM-------------*/
+
+.labelUscita {
+    display: inline;
+    font-weight: normal;
+}
+p#labelSubstitute {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+input#titolo {
+    width: 40%;
+}
+input#regia {
+    width: 40%;
+}
+input#durata {
+    width: 5em;
+}
+fieldset#ValutazioneFilmVoti label {
+    margin-bottom: 1em;
+    margin-top: 0;
+    margin-left: 1.5em;
+}
+fieldset#ValutazioneFilmVoti input {
+    float: left;
+    margin-top: 0.2em;
+}
+select#film {
+    margin-bottom: 1em;
+}
+
+/*--------------FINE FORM FILM--------*/
+
+
+/*--------------LISTA FILM----------------------------------*/
+
+.listaFilm {
+    margin-bottom: 1em;
+}
+.anteprimaFilm {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.anteprimaTitoloFilm {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.anteprimaFilmImg {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-right: 1%;
+    width: 250px;
+    height: 300px;
+}
+
+/*--------------FINE LISTA FILM----------------------------------*/
+
+
+/*--------------PROPRIETÀ IN COMUNE TRA FILM E LISTA FILM--------*/
+
+.datoFilm {
+    padding-bottom: 0.9em;
+}
+.nomeDatoFilm {
+    font-weight: bold;
+}
+
+/*--------------FINE PROPRIETÀ IN COMUNE TRA FILM E LISTA FILM--------*/
+
+
+/*-------------FILM-----------------------------------------*/
+
+div#presentazioneFilm {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+}
+.locandina {
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 1%;
+    width: 250px;
+    height: 300px;
+}
+div#datiFilm {
+    display: inline-block;
+    max-width: 72%;
+}
+.trama {
+    width: 85%;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.recensione {
+    width: 85%;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/*---------------FINE FILM--------------*/
+
+
+/*---------------COMMENTI------------------------*/
+
+#frmCommenta {
+    padding-top: 4em;
+}
+div#commenti {
+    padding-bottom: 2em;
+    padding-top: 3em;
+    word-wrap: break-word;
+}
+p#testoCCommento {
+    word-wrap: break-word;
+}
+div#numeroCommenti {
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+p#paragraphNumeroCommenti {
+    font-weight: bold;
+}
+.commento {
+    padding-bottom: 1em;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.commento p {
+    word-break: break-all;
+}
+.datiCommento {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+.autoreCommento {
+    font-weight: bold;
+}
+.dataCommento {
+    margin-left: 1%;
+    font-style: normal;
+}
+p#errorCommento {
+    margin-bottom: 1em;
+}
+
+/*---------------FINE COMMENTI------------------------*/
+
+
+/*---------------SELEZIONAUSCITAFILMTOSALA------------*/
+
+#filmSelezionato {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 15em;
+    height: 1.7em;
+}
+input#invioSelez {
+    margin-right: 1em;
+    float: left;
+    padding: 0.2em;
+}
+
+/*---------------FINE SELEZIONAUSCITAFILMTOSALA------------*/
+
+
+/*---------------CONFERMA----------------------------------*/
+
+.messaggioConferma {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+/*---------------FINE CONFERMA----------------------------------*/
+
+
+/*---------------RICERCA----------------------------------------*/
+
+form#ricercaForm {
+    border-top: 1px black solid;
+    margin-top: 1em;
+    border-bottom: 1px black solid;
+}
+form#ricercaForm input {
+    display: inline;
+}
+input#ricerca {
+    height: 1.5em;
+}
+input#btnCerca {
+    padding: 0.2em;
+    width: 5em;
+}
+input#ricerca {
+    width: 40%;
+}
+
+/*---------------FINE RICERCA------------------------------------*/
+
+
+/*---------------SPOSTA FILM-------------------------------------*/
+
+#filmDaRimuovereDaInSala {
+    margin-bottom: 1em;
+}
+
+/*----------------FINE SPOSTA FILM--------------------------------*/
+
+
+/*---------------MEDIA QUERY------------------*/
+
+@media all and (max-width:600px) {
+    html, body {}
+    div#nav {
+        padding-left: 0;
+        width: 100%;
+        min-height: 3em;
+        color: black;
+        background-color: #EBF0F4;
+        ;
+        overflow: visible;
+    }
+    ul.menulist {
+        width: 100%;
+        min-height: 3em;
+        overflow: visible;
+        background-color: #EBF0F4;
+    }
+    ul.menulist li {
+        float: none;
+        list-style: none;
+        overflow: visible;
+        height: 3em;
+        text-align: left;
+        margin-left: 0;
+        width: 100%;
+        line-height: 3em;
+        font-weight: bold;
+        border-bottom: 1px black solid;
+    }
+    ul.menulist a {
+        display: inline-block;
+        padding-left: 1%;
+    }
+    li.selected {
+        color: white;
+        background-color: #B20000;
+        padding-left: 1%;
+    }
+    #menuButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    #closeButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    div#content {
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-left: 0;
+        padding-top: 1em;
+        color: black;
+        background-color: white;
+    }
+    div#breadcrumbs {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 1em;
+    }
+    div#loginBar {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 1em;
+    }
+    div#footer {
+        margin-left: 0;
+        width: 100%;
+    }
+    .anteprimaFilmImg {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media handheld {
+    html, body {}
+    div#nav {
+        padding-left: 0;
+        width: 100%;
+        min-height: 3em;
+        color: black;
+        background-color: #EBF0F4;
+        ;
+        overflow: visible;
+    }
+    ul.menulist {
+        width: 100%;
+        min-height: 3em;
+        overflow: visible;
+        background-color: #EBF0F4;
+    }
+    ul.menulist li {
+        float: none;
+        list-style: none;
+        overflow: visible;
+        height: 3em;
+        text-align: left;
+        margin-left: 0;
+        width: 100%;
+        line-height: 3em;
+        font-weight: bold;
+        border-bottom: 1px black solid;
+    }
+    ul.menulist a {
+        display: inline-block;
+        padding-left: 1%;
+    }
+    li.selected {
+        color: white;
+        background-color: #B20000;
+        padding-left: 1%;
+    }
+    #menuButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    #closeButton {
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    div#content {
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+        margin-left: 0;
+        color: black;
+        background-color: white;
+    }
+    div#breadcrumbs {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 1em;
+    }
+    div#loginBar {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 1em;
+    }
+    div#footer {
+        margin-left: 0;
+        width: 100%;
+    }
+    .anteprimaFilmImg {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media print {
+    body {
+        color: #000;
+        background: #fff;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #header, #footer, #nav, #breadcrumbs, #loginBar, #ricercaForm, #frmCommenta {
+        display: none;
+    }
+    .listaFilm {
+        page-break-after: always;
+    }
+}

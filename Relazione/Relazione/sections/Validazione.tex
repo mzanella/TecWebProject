@@ -1,0 +1,38 @@
+\documentclass[../Relazione.tex]{subfiles}
+
+\begin{document}
+
+\section{Validazione e Test}
+
+\subsection{Validazione}
+
+Per garantire la qualità del sito è stato usato il validatore messo a disposizione dal W3C per assicurasi che il codice HTML, CSS, XML, XSLT e Perl fosse valido.
+Per poter validare i file .xsd presenti sulla cartella \url{http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti} è sufficiente aggiungere al tag radice di ogni file .xml la seguente stringa \textit{xmlns="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti"}. Ogni singola pagina generata da uno script Perl è stata validata tramite il validatore W3C per le pagine HTML.
+
+\subsection{Test}
+
+Il sito è stato testato sui seguenti browser:
+\begin{itemize}
+\item Mozilla Firefox 44;
+\item Google Chrome 48;
+\item Microsoft Edge Windows 10;
+25.10586.0.0
+\item Internet Explorer 11.0;
+\end{itemize}
+
+e sui seguenti sistemi operativi
+
+\begin{itemize}
+\item Ubuntu (14.04 e 15.10);
+\item Windows 10;
+\end{itemize}
+
+senza notare differenze rilevanti. Inoltre, si è effettuato un test disattivando JavaScript sui browser e le uniche differenze emerse sono:
+
+\begin{itemize}
+\item i suggerimenti interni ai campi delle form non vengono visualizzati;
+\item gli errori nei campi delle form vengono segnalati solamente attraverso l'evento \textit{onsubmit};
+\item il menù per la navigazione non scompare dopo il resize della finestra ma viene semplicemente modificata la sua presentazione.
+\end{itemize}
+			
+\end{document}

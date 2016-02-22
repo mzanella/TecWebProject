@@ -1,0 +1,52 @@
+\documentclass[../Relazione.tex]{subfiles}
+
+\begin{document}
+
+\section{Perl}
+
+Perl viene usato per gestire la visualizzazione e la gestione delle informazioni
+dinamiche. Gli script .cgi si possono dividere in due sezioni:
+\begin{itemize}
+\item Script che generano le pagine per gli utenti;
+\item Script che generano le pagine per gli amministratori.
+\end{itemize}
+\subsection{Pagine per gli utenti}
+Attraverso l'utilizzo delle sessioni, le pagine dedicate agli utenti variano il proprio comportamento se l'utente ha effettuato l'accesso o meno, in particolare
+\begin{itemize}
+\item \textit{film.cgi}
+\item \textit{filmProssimamente.cgi}
+\end{itemize}
+permettono agli utenti registrati che hanno effettuato l'accesso di commentare il film nella pagina. Le restanti pagine
+\begin{itemize}
+\item \textit{index.cgi}
+\item \textit{Login.cgi}
+\item \textit{OraInSala.cgi}
+\item \textit{TuttiIFilm.cgi}
+\item \textit{Prossimamente.cgi}
+\item \textit{Registrati.cgi}
+\end{itemize}
+non variano il proprio comportamento in base all'utente. \textit{TuttiIFilm.cgi} permette di effettuare una ricerca sul nome o sul genere del film.
+\subsection{Pagine di amministrazione}
+Queste pagine sono disponibili solo agli amministratori, per cui sono accedibili solo dopo aver effettuato il login. A partire dalla pagina \textit{Amministrazione.cgi} Per aggiungere film sono disponibili
+\begin{itemize}
+\item \textit{InserisciFilmUscita.cgi}
+\item \textit{InserisciNuovoFilmSala.cgi}
+\item \textit{RecensisciNuovoFilm.cgi}
+\end{itemize}
+Per spostare un film dalla sezione "Prossimamente" a "Ora in sala" si utilizza la pagina \textit{SelezionaFilmUscitaToSala.cgi}, per rimuoverlo da "Ora in sala" \textit{RimuoviFilmDaSala.cgi}, per rimuoverlo completamente dal sito \textit{CancellaFilm.cgi} e per modificare un film (tranne tra quelli nella sezione "Prossimamente") \textit{ModificaFilm.cgi}. Nelle pagine di inserimento e modifica dei film è possibile inserire la locandina di un film. Per poter fare ciò, è necessario inserire nell'apposito campo l'url dell'imagine. Questo può essere un link ad un immagine di un sito web remoto oppure un link ad un'immagine già presente all'interno del percorso \textit{public\_html/locandine}
+
+\subsection{Sessioni}
+Le sessioni messe a disposizione dal modulo Perl \texttt{CGI::Session} sono utilizzare nel progetto per due scopi:
+\begin{itemize}
+	\item Per gestire le situazioni in cui è necessario verificare se un utente ha effettuato l'accesso al sito oppure no;
+	\item Per la gestione degli errori nelle form di inserimento dati.
+\end{itemize}
+Nel primo caso si cercano tra i dati inseriti in una \textit{session} le informazioni relative ad un utente, in particolare:
+\begin{itemize}
+	\item Nome;
+	\item Email;
+	\item Se l'utente è un amministratore oppure no.
+\end{itemize}
+Nel caso in cui si rilevi che un particolare utente si dichiara nella \textit{session} come amministratore viene fatto un ulteriore controllo, cercando effettivamente nel database degli utenti se la sua email è associata ad un utente amministratore.
+Se nella verifica dei dati vengono riscontrati degli errori, vengono segnatati all'utente (se JavaScript è abilitato) e nei campi già compilati vengono reinseriti i valori immessi dall'utente.
+\end{document}
