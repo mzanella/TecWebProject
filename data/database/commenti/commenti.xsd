@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="hhttp://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" targetNamespace="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" elementFormDefault="qualified">
+	<xs:element name="database" type="Tdatabase"/>
+	<xs:complexType name="Tdatabase">
+		<xs:sequence>
+			<xs:element name="commenti" type="Tcommenti"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Tcommenti">
+		<xs:sequence>
+			<xs:element name="commento" type="Tcommento" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Tcommento">
+		<xs:sequence>
+			<xs:element name="autore" type="Tautore"/>
+			<xs:element name="data" type="xs:date"/>
+			<xs:element name="ora" type="xs:string"/>
+			<xs:element name="testo" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Tautore">
+		<xs:sequence>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="cognome" type="xs:string"/>
+			<xs:element name="email" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

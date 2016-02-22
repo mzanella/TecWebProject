@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<generi xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti ../data/database/generi.xsd">
+	<genere>animazione</genere>
+	<genere>avventura</genere>
+	<genere>azione</genere>
+	<genere>comico</genere>
+	<genere>commedia</genere>
+	<genere>documentario</genere>
+	<genere>dramma</genere>
+	<genere>erotico</genere>
+	<genere>fantascienza</genere>
+	<genere>giallo</genere>
+	<genere>guerra</genere>
+	<genere>horror</genere>
+	<genere>musical</genere>
+	<genere>noir</genere>
+	<genere>sentimentale</genere>
+	<genere>thriller</genere>
+	<genere>western</genere>
+</generi>

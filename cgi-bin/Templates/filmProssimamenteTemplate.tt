@@ -1,0 +1,39 @@
+<h2 id="titoloFilm">[% titolo %]</h2>
+<div id="presentazioneFilm">
+	<img class="locandina" src="[% locandina %]" alt="[% alt %]" title="Locandina del film: [% titolo %]" />
+	<div id="datiFilm">
+		<p class="datoFilm"><span class="nomeDatoFilm">Durata:</span> [% durata %] min.</p>
+		<p class="datoFilm"><span class="nomeDatoFilm">Anno di produzione:</span> [% anno %] </p>
+		<p class="datoFilm"><span class="nomeDatoFilm">Regia:</span> [% regia %] </p>
+		<p class="datoFilm"><span class="nomeDatoFilm">Attori:</span> [% attori %] </p>
+		<p class="datoFilm"><span class="nomeDatoFilm">Genere:</span> [% genere %] </p>
+		<p class="datoFilm"><span class="nomeDatoFilm">Data uscita nelle sale: </span> [% dataUscita %]</p>
+	</div>
+</div>
+<h2>Trama</h2>
+<p class="trama">
+	[% trama %]
+</p>
+
+<form id="frmCommenta" action="perl/controlloCommentiFilmProssimamente.cgi" method="post">
+	<fieldset>
+		<legend>Commenta questo film</legend>
+		<label for="nuovoCommento">Inserisci un nuovo commento(minimo 10 caratteri):</label>
+		[% IF loggato %]
+			<textarea id="nuovoCommento" name="commento" rows="6" cols="150">[% IF errCommento %][% commento %][% END %]</textarea>
+			[% IF errCommento %]
+				<p id="errorCommento">
+					[% errMessage %]
+				</p>
+			[% END %]
+			<input type="hidden" name="idFilm" value="[% idFilm %]" />
+			<input id="btnCommenta" type="submit" name="name" value="Inserisci commento" />
+		[% ELSE %]
+				<p>
+					Devi effettuare il
+					<a href="Login.cgi"> login</a>
+					per commentare.
+				</p>
+		[% END %]
+	</fieldset>
+</form>

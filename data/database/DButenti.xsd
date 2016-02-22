@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" targetNamespace="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti" elementFormDefault="qualified">
+
+	<xs:element name="database" type="Tdatabase"/>
+	<xs:complexType name="Tdatabase">
+		<xs:sequence>
+			<xs:element name="utenti" type="Tutenti" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Tutenti">
+		<xs:sequence>
+			<xs:element name="utente" type="Tutente" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Tutente">
+		<xs:sequence>
+			<xs:element name="nome" type="xs:string"/>
+			<xs:element name="cognome" type="xs:string" />
+			<xs:element name="dataDiNascita" type="xs:date" />
+			<xs:element name="email" type="xs:string" />
+			<xs:element name="password" type="xs:string" />
+			<xs:element name="admin" type="Tadmin" />
+			<xs:element name="generiPreferiti" type="TgeneriPreferiti" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" use="required" type="xs:decimal" />
+	</xs:complexType>
+
+	<xs:simpleType name="Tadmin">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="si" />
+			<xs:enumeration value="no" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="TgeneriPreferiti">
+		<xs:sequence>
+			<xs:element name="genere" type="Tgenere" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+<xs:simpleType name="Tgenere">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="animazione" />
+		<xs:enumeration value="avventura" />
+		<xs:enumeration value="azione" />
+		<xs:enumeration value="comico" />
+		<xs:enumeration value="commedia" />
+		<xs:enumeration value="documentario" />
+		<xs:enumeration value="dramma" />
+		<xs:enumeration value="erotico" />
+		<xs:enumeration value="fantascienza" />
+		<xs:enumeration value="giallo" />
+		<xs:enumeration value="guerra" />
+		<xs:enumeration value="horror" />
+		<xs:enumeration value="musical" />
+		<xs:enumeration value="noir" />
+		<xs:enumeration value="sentimentale" />
+		<xs:enumeration value="thriller" />
+		<xs:enumeration value="western" />
+	</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

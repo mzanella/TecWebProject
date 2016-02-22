@@ -1,0 +1,103 @@
+%ricordarsi di compilare più di una volta
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{leaf}
+\setcounter{table}{-1}
+
+\titlepage{}
+
+\author{Oscar Elia Conti, Federico Tavella, Marco Zanella}
+\date{05/02/2016}
+\intestazioni{Relazione Progetto Tecnologie Web}
+\pagenumbering{gobble}
+\begin{document}
+	\begin{titlepage}
+		\centering
+		
+		\vspace{1cm}
+		{\huge\bfseries Gruppo FourMinusOne\par}
+		\line(1,0){350} \\
+		{\scshape\LARGE Università di Padova \par}
+		\vspace{0.5cm}
+		{\scshape\Large Relazione Progetto Tecnologie Web\par}
+		\vspace{0.5cm}
+		\includegraphics[scale=0.75]{immagini/logo.png}	 \\	
+		\vspace{0.5cm}
+
+\begin{tabular}{c|c}
+
+{\hfill\textbf{Componenti}} & Oscar Elia Conti \parbox[t]{5cm}{} \\ & Federico Tavella \parbox[t]{5cm}{} \\ & Marco Zanella \parbox[t]{5cm}{} \\ \\
+
+{\hfill\textbf{Referente}} & Oscar Elia Conti \parbox[t]{5cm}{} \\ & conti.oscarelia@gmail.com \\ \\
+
+
+\end{tabular}
+\vspace{0.5cm}
+
+
+\textbf{Link al sito}
+\url{http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti} \\
+		\vspace{0.5cm}
+		Credenziali utente\\
+		\textbf{Username: } marco@email.com\\
+		\textbf{Password: } password\\
+		\vspace{0.5cm}
+		Credenziali amministratore\\
+		\textbf{Username: } oscar@email.com\\
+		\textbf{Password: } password\\
+		
+		
+		
+\end{titlepage}
+
+	\pagestyle{myfront}	
+	
+	\newpage
+		\tableofcontents 	% produce l'indice delle sezioni del documento
+	
+	\label{LastFrontPage}
+
+	\newpage
+		\pagestyle{mymain}
+	
+	\newpage
+		\subfile{sections/Abstract}
+	
+	\newpage
+		\subfile{sections/Categorie_film}
+	
+	\newpage
+		\subfile{sections/Utenti_destinatari}
+		
+	\newpage
+		\subfile{sections/Gerarchia_file}
+			
+	\newpage
+		\subfile{sections/Accessibilita}
+		
+	
+	\newpage
+		\subfile{sections/Struttura}
+		
+	\newpage
+		\subfile{sections/Presentazione}
+	
+	\newpage
+		\subfile{sections/Comportamento}
+		
+	\newpage
+		\subfile{sections/Gestione_dati}
+	
+	\newpage
+		\subfile{sections/Perl}
+		
+	\newpage
+		\subfile{sections/Validazione}
+		
+	\newpage
+		\subfile{sections/Organizzazione}
+	
+		
+	\label{LastPage}
+
+\end{document}

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+<head>
+	<link href="style/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="style/css/styleFont.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/jquery-1.11.1.min.js"></script>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="title" content="Home - NomeSito" />
+	<meta name="description" content="Home page" />
+	<meta name="keyword" content="Cinema, Film, Nuove uscite, ..." />
+	<meta name="language" content="italian it" />
+	<meta name="author" content="Oscar Elia Conti, Simone Poloniato, Federico Tavella, Marco Zanella" />
+	<title>Home - NomeSito</title>
+</head>
+
+<body>
+	<div id="header">
+		<img id="imgHeader" src="style/images/PRIMEX-logo.png" />
+	</div>
+	<div id="nav">
+		<div class="closeButton">
+			<a class="icon-close"></a>
+		</div>
+		<div id="menuButton">
+			<a class="icon-menu"></a>
+		</div>
+		<ul class="menulist">
+			<li id="saltamenu"><a href="#content">Salta il menù</a></li>
+			<li><a href="index.html"><span xml:lang="en">HOME</span></a></li>
+			<li><a href="TuttiIFilm.html">TUTTI I FILM</a></li>
+			<li><a href="OraInSala.html">ORA IN SALA</a></li>
+			<li><a href="Prossimamente.html">PROSSIMAMENTE</a></li>
+		</ul>
+	</div>
+	<div id="breadcrumbs">
+		Ti trovi in: <span xml:lang="en">Home</span>
+	</div>
+	<script type="text/javascript" src="javascript/button.js"></script>
+	<div id="loginBar">
+		<a href="Login.html" class="loginLink">Login</a>
+		<a href="Registrati.html" class="loginLink">Registrati</a>
+	</div>
+	<div id="content">
+		<h2>Registrazione</h2>
+		<form id="registrazione" action="azione_da_mettere" method="post">
+			<fieldset>
+				<legend>Dati per il login</legend>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email" />
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" />
+				<label for="passwordConferma">Password di conferma:</label>
+				<input type="password" name="passwordConferma" id="passwordConferma" />
+			</fieldset>
+			<fieldset>
+				<legend>Dati personali</legend>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome" />
+				<label for="cognome">Cognome:</label>
+				<input type="text" name="cognome" id="cognome" />
+				<p>Data di Nascita:</p>
+				<label class="data" for="giorno">Giorno:</label>
+				<input type="text" name="giorno" id="giorno" class="data" />
+				<label for="mese" class="data">Mese:</label>
+				<input type="text" name="mese" id="mese" class="data" />
+				<label for="anno" class="data">Anno:</label>
+				<input type="text" name="anno" id="anno" class="data" />
+			</fieldset>
+			<fieldset id="categorie">
+				<legend>Categorie di film</legend>
+				<input type="checkbox" name="animazione" id="animazione" />
+				<label for="animazione">Animazione</label>
+				<input type="checkbox" name="avventura" id="avventura" />
+				<label for="avventura">Avventura</label>
+				<input type="checkbox" name="comico" id="comico" />
+				<label for="comico">Comico</label>
+				<input type="checkbox" name="commedia" id="commedia" />
+				<label for="commedia">Commedia</label>
+				<input type="checkbox" name="documentario" id="documentario" />
+				<label for="documentario">Documentario</label>
+				<input type="checkbox" name="dramma" id="dramma" />
+				<label for="dramma">Dramma</label>
+				<input type="checkbox" name="erotico" id="erotico" />
+				<label for="erotico">Erotico</label>
+				<input type="checkbox" name="azione" id="azione" />
+				<label for="azione">Azione</label>
+				<input type="checkbox" name="fantascienza" id="fantascienza" />
+				<label for="fantascienza">Fantascienza</label>
+				<input type="checkbox" name="azione" id="azione" />
+				<label for="fantasy">Fantasy</label>
+				<input type="checkbox" name="giallo" id="giallo" />
+				<label for="giallo">Giallo</label>
+				<input type="checkbox" name="guerra" id="guerra" />
+				<label for="guerra">Guerra</label>
+				<input type="checkbox" name="horror" id="horror" />
+				<label for="horror">Horror</label>
+				<input type="checkbox" name="musical" id="musical" />
+				<label for="musical">Musical</label>
+				<input type="checkbox" name="noir" id="noir" />
+				<label for="noir">Noir</label>
+				<input type="checkbox" name="sentimentale" id="sentimentale" />
+				<label for="sentimentale">Sentimentale</label>
+				<input type="checkbox" name="thriller" id="thriller" />
+				<label for="thriller">Thriller</label>
+				<input type="checkbox" name="western" id="western" />
+				<label for="western">Western</label>
+			</fieldset>
+			<input type="submit" value="Registrati" />
+		</form>
+	</div>
+	<div id="footer">
+		<p>Remember me to put something here</p>
+	</div>
+</body>
+
+</html>

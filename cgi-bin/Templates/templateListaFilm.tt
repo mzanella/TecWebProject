@@ -1,0 +1,17 @@
+<div id="listaFilm">
+[% FOREACH film = films %]
+	<dl class="anteprimaFilm">
+		<dt class="anteprimaTitoloFilm">[% IF film.tipologia=="completo" %]
+			<a href='film.cgi?id=[% film.id %]'	> [% film.titolo %] </a>
+			[% ELSE %]
+			<a href='filmProssimamente.cgi?id=[% film.id %]' > [% film.titolo %] </a>
+			[% END %]</dt>
+		<dd><img class="anteprimaFilmImg" src="[% film.locandina %]" alt="[% film.alt %]" title="Locandina del film: [% film.titolo %]" /></dd>
+		<dd class="datoFilm"><span class="nomeDatoFilm">Durata:</span> [% film.durata %] min.</dd>
+		<dd class="datoFilm"><span class="nomeDatoFilm">Anno:</span> [% film.anno %] </dd>
+		<dd class="datoFilm"><span class="nomeDatoFilm">Regia:</span> [% film.regia %] </dd>
+		<dd class="datoFilm"><span class="nomeDatoFilm">Attori:</span> [% film.attori %] </dd>
+		<dd class="datoFilm"><span class="nomeDatoFilm">Genere:</span> [% film.genere %] </dd>
+	</dl>
+	[% END %]
+</div>

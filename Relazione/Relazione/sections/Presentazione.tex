@@ -1,0 +1,22 @@
+\documentclass[../Relazione.tex]{subfiles}
+
+\begin{document}
+
+\section{Presentazione}
+
+Nella realizzazione dell'interfaccia grafica del sito è stato usato lo standard CSS3 ma, per cercare di mantenere un alto livello di compatibilità con i browser più datati, il suo utilizzo è stato limitato allo stretto indispensabile, assicurando un degrado elegante in caso di mancato funzionamento.
+
+\subsection{Media query}
+
+Al fine di soddisfare le emergenti esigenze di Responsive web, è stato definito un breakpoint che si attiva quando la dimensione della finestra del browser è inferiore a 600px o il dispositivo si dichiara handhald, variando la presentazione della pagina: il menu di navigazione diventa a lista, si attiva lo script \textit{button.js} per il menù a scomparsa e l'elenco dei film varia l'organizzazione delle informazioni, disponendole in verticale anziché orizzontale.
+
+\subsection{Divisione dei file}
+Nella cartella public\_html/style possiamo trovare:
+\begin{itemize}
+\item \textbf{css/style.css}: file .css contenente lo stile di visualizzazione dell'intero sito;
+\item \textbf{css/styleFont.css}: file .css per lo script \textit{button.js};
+\item \textbf{style/fonts}: cartella contenente i file necessari per allo script \textit{button.js};
+\item \textbf{style/images}: cartella in cui sono contenute le immagini di presentazione.
+\end{itemize}
+			
+\end{document}

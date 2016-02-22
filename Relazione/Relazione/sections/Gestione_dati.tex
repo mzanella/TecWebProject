@@ -1,0 +1,28 @@
+\documentclass[../Relazione.tex]{subfiles}
+
+\begin{document}
+
+\section{Gestione dei dati}
+
+Il sito dispone principalmente di tre tipi di dati:
+\begin{itemize}
+\item \textbf{Film:} tutti i film inseriti con le rispettive informazioni;
+\item \textbf{Utenti:} tutti gli utenti iscritti al sito, tra cui normali utenti e amministratori;
+\item \textbf{Commenti:} tutti i commenti degli utenti su un singolo film.
+\end{itemize}
+
+Da questo punto in poi, fino al termine della sezione "Gestione dei dati", si farà riferimento a file e cartelle prendendo come base del percorso data/database.
+
+\subsection{XML}
+
+Per la memorizzazione dei film, degli utenti e dei commenti sono stati creati tre differenti file .xml, rispettivamente \textit{DBfilms.xml}, \textit{DButenti.xml} e un file per ogni film aggiunto a \textit{DBfilms.xml} in \textit{commenti/Films} e \textit{commenti/FilmsProssimamente}.
+
+\subsection{XMLSchema}
+
+Per verificare la validità dei dati sono stati creati degli appositi XMLSchema che definisco i vari tag che possono comparire nei file .xml. 
+
+\subsection{XSLT}
+
+Per visualizzare il contenuto dei file XML sono state create delle trasformate XSLT che, applicate tramite la libreria LibXML::XSLT di Perl, permettono di visualizzare il contenuto dei suddetti file. Ad esempio, \textit{in index.cgi}, per la visualizzazione delle news viene utilizzata la trasformata \textit{film.xsl} applicandola al file \textit{DBfilms.xml}
+			
+\end{document}

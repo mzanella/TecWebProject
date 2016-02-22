@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<database xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://tecnologie-web.studenti.math.unipd.it/tecweb/~oconti ../data/database/DButenti.xsd">
+<utenti>
+
+<utente id="0">
+<nome>Oscar Elia</nome>
+<cognome>Conti</cognome>
+<dataDiNascita>1992-05-25</dataDiNascita>
+<email>oscar@email.com</email>
+<password>X03MO1qnZdYdgyfeuILPmQ</password>
+<admin>si</admin>
+<generiPreferiti><genere>animazione</genere><genere>avventura</genere><genere>erotico</genere></generiPreferiti>
+</utente><utente id="1">
+<nome>Marco</nome>
+<cognome>Zanella</cognome>
+<dataDiNascita>1994-07-05</dataDiNascita>
+<email>marco@email.com</email>
+<password>X03MO1qnZdYdgyfeuILPmQ</password>
+<admin>no</admin>
+<generiPreferiti><genere>fantascienza</genere><genere>horror</genere></generiPreferiti>
+</utente><utente id="2">
+<nome>Federico</nome>
+<cognome>Tavella</cognome>
+<dataDiNascita>1918-01-01</dataDiNascita>
+<email>federico@email.com</email>
+<password>X03MO1qnZdYdgyfeuILPmQ</password>
+<admin>no</admin>
+<generiPreferiti><genere>documentario</genere><genere>dramma</genere><genere>musical</genere><genere>sentimentale</genere></generiPreferiti>
+</utente></utenti>
+</database>
